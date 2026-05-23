@@ -1,4 +1,4 @@
-export const oldShikokuUrl = "https://codyjuan.github.io/my-shikoku-trip/";
+export const oldShikokuUrl = "https://phjuan0408-code.github.io/my-shikoku-trip/";
 
 export const featureRegions = [
   {
