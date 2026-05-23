@@ -8,7 +8,7 @@ export default function Home() {
       <Banner
         title="JAPAN TRIPS"
         subtitle="從四國到名古屋，把每趟旅行都留在地圖上。"
-        imageUrl="/images/placeholders/home-banner.webp"
+        imageUrl="./images/placeholders/home-banner.webp"
       />
 
       <section className="mx-auto max-w-5xl px-4 py-8 text-center font-serif text-[#504339]">

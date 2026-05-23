@@ -14,12 +14,12 @@ export default function SiteFooter() {
   return (
     <footer
       className="relative mt-16 bg-cover bg-center text-white"
-      style={{ backgroundImage: "url('/images/placeholders/footer.webp')" }}
+      style={{ backgroundImage: "url('./images/placeholders/footer.webp')" }}
     >
       <div className="absolute inset-0 bg-black/45" />
       <div className="relative z-10 mx-auto flex h-52 max-w-6xl flex-col items-center justify-center px-4 text-center font-serif">
         <img
-          src="/images/placeholders/author.webp"
+          src="./images/placeholders/author.webp"
           alt="Author"
           loading="lazy"
           className="mb-3 h-14 w-14 rounded-full border-2 border-white object-cover shadow-md"

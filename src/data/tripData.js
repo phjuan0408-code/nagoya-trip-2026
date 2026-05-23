@@ -1,4 +1,4 @@
-export const oldShikokuUrl = "https://phjuan0408-code.github.io/my-shikoku-trip/";
+export const oldShikokuUrl = "https://phjuan0408-code.github.io/shikoku-trip-2025/";
 
 export const featureRegions = [
   {
@@ -51,7 +51,7 @@ export const places = [
     prefecture: "愛知縣",
     coordinates: [136.8054, 34.8584],
     summary: "中部國際機場，這趟旅程的起點與終點。",
-    cover: "/images/nagoya-2026/places/centrair-airport.webp",
+    cover: "./images/nagoya-2026/places/centrair-airport.webp",
     days: ["Day 1", "Day 9"],
     labelOffset: [0, 20],
   },
@@ -61,7 +61,7 @@ export const places = [
     prefecture: "愛知縣",
     coordinates: [136.9066, 35.1815],
     summary: "中部旅程的起點，從名古屋站、名古屋城到熱田神宮，把城市散步與最後幾天的回程節奏串在一起。",
-    cover: "/images/nagoya-2026/day-2/nagoya-castle/castle.webp",
+    cover: "./images/nagoya-2026/day-2/nagoya-castle/castle.webp",
     days: ["Day 1", "Day 2", "Day 3", "Day 6", "Day 7", "Day 8", "Day 9"],
   },
   {
@@ -70,7 +70,7 @@ export const places = [
     prefecture: "愛知縣",
     coordinates: [136.9392, 35.3884],
     summary: "國寶犬山城與木曾川旁的城下町，作為名古屋近郊的一站很有自己的風景。",
-    cover: "/images/nagoya-2026/day-7/inuyama/castle.webp",
+    cover: "./images/nagoya-2026/day-7/inuyama/castle.webp",
     days: ["Day 7"],
     labelOffset: [25, 4],
   },
@@ -80,7 +80,7 @@ export const places = [
     prefecture: "長野縣",
     coordinates: [137.8111, 35.9655],
     summary: "中山道木曾路上的宿場町，木造街屋沿著山谷排開，是從名古屋往松本移動途中最安靜的一段停留。",
-    cover: "/images/nagoya-2026/day-3/narai-juku/street.webp",
+    cover: "./images/nagoya-2026/day-3/narai-juku/street.webp",
     days: ["Day 3"],
   },
   {
@@ -89,7 +89,7 @@ export const places = [
     prefecture: "長野縣",
     coordinates: [137.9719, 36.238],
     summary: "松本城、城下町、咖啡與往山區移動的中繼城市。",
-    cover: "/images/nagoya-2026/day-3/matsumoto/castle-moat.webp",
+    cover: "./images/nagoya-2026/day-3/matsumoto/castle-moat.webp",
     days: ["Day 3", "Day 4"],
   },
   {
@@ -98,7 +98,7 @@ export const places = [
     prefecture: "長野縣",
     coordinates: [137.851, 36.503],
     summary: "前往立山黑部前的山麓小城，夜裡抵達、隔天清晨出發，像是山岳路線正式開始前的前奏。",
-    cover: "/images/nagoya-2026/day-3/shinano-omachi/station-night.webp",
+    cover: "./images/nagoya-2026/day-3/shinano-omachi/station-night.webp",
     days: ["Day 3", "Day 4"],
     labelOffset: [38, 4],
   },
@@ -108,7 +108,7 @@ export const places = [
     prefecture: "富山/長野",
     coordinates: [137.596, 36.566],
     summary: "從黑部水壩、纜車、索道到室堂雪牆，一天內把山岳交通與北阿爾卑斯的雪景完整穿越。",
-    cover: "/images/nagoya-2026/places/tateyama-kurobe.webp",
+    cover: "./images/nagoya-2026/places/tateyama-kurobe.webp",
     days: ["Day 4"],
   },
   {
@@ -117,7 +117,7 @@ export const places = [
     prefecture: "富山縣",
     coordinates: [137.2137, 36.6953],
     summary: "富山市區、富山站、環水公園、壽司與電車街景。",
-    cover: "/images/nagoya-2026/day-4/toyama/station.webp",
+    cover: "./images/nagoya-2026/day-4/toyama/station.webp",
     days: ["Day 4", "Day 5"],
   },
   {
@@ -126,7 +126,7 @@ export const places = [
     prefecture: "岐阜縣",
     coordinates: [137.2522, 36.1461],
     summary: "飛驒高山老街、宮川朝市與往白川鄉移動的中繼城市。",
-    cover: "/images/nagoya-2026/day-5/takayama/old-street-night.webp",
+    cover: "./images/nagoya-2026/day-5/takayama/old-street-night.webp",
     days: ["Day 5", "Day 6"],
   },
   {
@@ -135,7 +135,7 @@ export const places = [
     prefecture: "岐阜縣",
     coordinates: [136.8986, 36.2573],
     summary: "白川鄉合掌造聚落，從展望台俯瞰村落，再走進合掌屋與田園之間，是岐阜山村最有畫面的一站。",
-    cover: "/images/nagoya-2026/places/shirakawa.webp",
+    cover: "./images/nagoya-2026/places/shirakawa.webp",
     days: ["Day 5"],
   },
   {
@@ -144,7 +144,7 @@ export const places = [
     prefecture: "長野縣",
     coordinates: [137.638, 36.246],
     summary: "河童橋、梓川、穗高連峰與步道紀錄。",
-    cover: "/images/nagoya-2026/places/kamikochi.webp",
+    cover: "./images/nagoya-2026/places/kamikochi.webp",
     days: ["Day 6"],
   },
   {
@@ -153,7 +153,7 @@ export const places = [
     prefecture: "岐阜縣",
     coordinates: [136.9177, 35.4956],
     summary: "刀具文化、刃物會館、關市街道或途中交通紀錄。",
-    cover: "/images/nagoya-2026/day-7/seki/blade-hall.webp",
+    cover: "./images/nagoya-2026/day-7/seki/blade-hall.webp",
     days: ["Day 7"],
   },
 ];
@@ -167,7 +167,7 @@ export const storyItems = [
     placeIds: ["nagoya"],
     days: ["Day 1"],
     images: [
-      { src: "/images/nagoya-2026/day-1/nagoya-airport/senbei.webp", alt: "名古屋車站" },
+      { src: "./images/nagoya-2026/day-1/nagoya-airport/senbei.webp", alt: "名古屋車站" },
     ],
   }),
   story({
@@ -178,7 +178,7 @@ export const storyItems = [
     placeIds: ["nagoya"],
     days: ["Day 1"],
     images: [
-      { src: "/images/nagoya-2026/day-1/nagoya-eki/nagoya-eki.webp", alt: "名古屋車站" },
+      { src: "./images/nagoya-2026/day-1/nagoya-eki/nagoya-eki.webp", alt: "名古屋車站" },
     ],
   }),
   story({
@@ -190,8 +190,8 @@ export const storyItems = [
     tags: ["主食"],
     days: ["Day 1"],
     images: [
-      { src: "/images/nagoya-2026/day-1/flight/meal-001.webp", alt: "兒童餐" },
-      { src: "/images/nagoya-2026/day-1/flight/meal-002.webp", alt: "胡同雞腿餐" },
+      { src: "./images/nagoya-2026/day-1/flight/meal-001.webp", alt: "兒童餐" },
+      { src: "./images/nagoya-2026/day-1/flight/meal-002.webp", alt: "胡同雞腿餐" },
     ],
   }),
   story({
@@ -203,8 +203,8 @@ export const storyItems = [
     days: ["Day 1"],
     tags: ["麵食"],
     images: [
-      { src: "/images/nagoya-2026/day-1/nagoya-arrival-food/udon.webp", alt: "抵達名古屋後的烏龍麵" },
-      { src: "/images/nagoya-2026/day-1/nagoya-arrival-food/curry-udon.webp", alt: "抵達名古屋後的咖哩烏龍麵" },
+      { src: "./images/nagoya-2026/day-1/nagoya-arrival-food/udon.webp", alt: "抵達名古屋後的烏龍麵" },
+      { src: "./images/nagoya-2026/day-1/nagoya-arrival-food/curry-udon.webp", alt: "抵達名古屋後的咖哩烏龍麵" },
     ],
     googleMapsUrl: "https://maps.app.goo.gl/g31ofeEqGcbx6ZbWA",
   }),
@@ -217,7 +217,7 @@ export const storyItems = [
     days: ["Day 1"],
     tags: ["點心"],
     images: [
-      { src: "/images/nagoya-2026/day-1/nagoya-arrival-food/convenience-food.webp", alt: "第一天的宵夜" },
+      { src: "./images/nagoya-2026/day-1/nagoya-arrival-food/convenience-food.webp", alt: "第一天的宵夜" },
     ],
   }),
     story({
@@ -228,9 +228,9 @@ export const storyItems = [
     placeIds: ["nagoya"],
     days: ["Day 2"],
     images: [
-      { src: "/images/nagoya-2026/day-2/nagoya-castle/castle.webp", alt: "名古屋城天守" },
-      { src: "/images/nagoya-2026/day-2/nagoya-castle/ticket.webp", alt: "名古屋城門票" },
-      { src: "/images/nagoya-2026/day-2/nagoya-castle/castle-park.webp", alt: "名古屋城周邊" },
+      { src: "./images/nagoya-2026/day-2/nagoya-castle/castle.webp", alt: "名古屋城天守" },
+      { src: "./images/nagoya-2026/day-2/nagoya-castle/ticket.webp", alt: "名古屋城門票" },
+      { src: "./images/nagoya-2026/day-2/nagoya-castle/castle-park.webp", alt: "名古屋城周邊" },
     ],
   }),
   story({
@@ -242,8 +242,8 @@ export const storyItems = [
     days: ["Day 2"],
     tags: ["拉麵"],
     images: [
-      { src: "/images/nagoya-2026/day-2/sugakiya/noodles.webp", alt: "Sugakiya 餐點" },
-      { src: "/images/nagoya-2026/day-2/sugakiya/storefront.webp", alt: "Sugakiya 店面" },
+      { src: "./images/nagoya-2026/day-2/sugakiya/noodles.webp", alt: "Sugakiya 餐點" },
+      { src: "./images/nagoya-2026/day-2/sugakiya/storefront.webp", alt: "Sugakiya 店面" },
     ],
     googleMapsUrl: "https://maps.app.goo.gl/34daBp4NUB4jgVW19",
   }),
@@ -255,7 +255,7 @@ export const storyItems = [
     placeIds: ["nagoya"],
     days: ["Day 2"],
     tags: ["飲品"],
-    images: [{ src: "/images/nagoya-2026/day-2/nagoya-coffee/coffee.webp", alt: "名古屋咖啡店" }],
+    images: [{ src: "./images/nagoya-2026/day-2/nagoya-coffee/coffee.webp", alt: "名古屋咖啡店" }],
     googleMapsUrl: "https://maps.app.goo.gl/GKXC4o9bjSPiBxir8",
   }),
   story({
@@ -266,7 +266,7 @@ export const storyItems = [
     placeIds: ["nagoya"],
     days: ["Day 2"],
     tags: ["甜點"],
-    images: [{ src: "/images/nagoya-2026/day-2/nagoya-castle/kinako-snack.webp", alt: "名古屋城附近小點" }],
+    images: [{ src: "./images/nagoya-2026/day-2/nagoya-castle/kinako-snack.webp", alt: "名古屋城附近小點" }],
     googleMapsUrl: "https://maps.app.goo.gl/tU2RggEb8oR5egkY9",
   }),
   story({
@@ -278,11 +278,11 @@ export const storyItems = [
     days: ["Day 2"],
     tags: ["拉麵"],
     images: [
-      { src: "/images/nagoya-2026/day-2/nagoya-ramen/tantanmen.webp", alt: "擔擔麵" },
-      { src: "/images/nagoya-2026/day-2/nagoya-ramen/mazesoba.webp", alt: "拌麵" },
-      { src: "/images/nagoya-2026/day-2/nagoya-ramen/tantanmen-2.webp", alt: "擔擔麵第二碗" },
-      { src: "/images/nagoya-2026/day-2/nagoya-ramen/storefront.webp", alt: "拉麵店店面" },
-      { src: "/images/nagoya-2026/day-2/nagoya-ramen/sign.webp", alt: "拉麵店招牌" },
+      { src: "./images/nagoya-2026/day-2/nagoya-ramen/tantanmen.webp", alt: "擔擔麵" },
+      { src: "./images/nagoya-2026/day-2/nagoya-ramen/mazesoba.webp", alt: "拌麵" },
+      { src: "./images/nagoya-2026/day-2/nagoya-ramen/tantanmen-2.webp", alt: "擔擔麵第二碗" },
+      { src: "./images/nagoya-2026/day-2/nagoya-ramen/storefront.webp", alt: "拉麵店店面" },
+      { src: "./images/nagoya-2026/day-2/nagoya-ramen/sign.webp", alt: "拉麵店招牌" },
     ],
     googleMapsUrl: "https://maps.app.goo.gl/qoapigWmUEod3Y45A"
   }),
@@ -295,7 +295,7 @@ export const storyItems = [
     days: ["Day 2"],
     tags: ["冰品"],
     images: [
-      { src: "/images/nagoya-2026/day-2/convenience-snacks/tea.webp", alt: "便利商店飲料" },
+      { src: "./images/nagoya-2026/day-2/convenience-snacks/tea.webp", alt: "便利商店飲料" },
     ],
   }),
   story({
@@ -307,7 +307,7 @@ export const storyItems = [
     days: ["Day 2"],
     tags: ["飲品"],
     images: [
-      { src: "/images/nagoya-2026/day-2/convenience-snacks/matcha-drink.webp", alt: "抹茶飲料" },
+      { src: "./images/nagoya-2026/day-2/convenience-snacks/matcha-drink.webp", alt: "抹茶飲料" },
     ],
   }),
   story({
@@ -319,7 +319,7 @@ export const storyItems = [
     days: ["Day 2"],
     tags: ["水果"],
     images: [
-      { src: "/images/nagoya-2026/day-2/convenience-snacks/strawberries.webp", alt: "草莓" },
+      { src: "./images/nagoya-2026/day-2/convenience-snacks/strawberries.webp", alt: "草莓" },
     ],
   }),
   story({
@@ -330,7 +330,7 @@ export const storyItems = [
     placeIds: ["nagoya"],
     days: ["Day 2"],
     tags: ["甜點"],
-    images: [{ src: "/images/nagoya-2026/day-2/convenience-snacks/kuromitsu.webp", alt: "黑糖點心" }],
+    images: [{ src: "./images/nagoya-2026/day-2/convenience-snacks/kuromitsu.webp", alt: "黑糖點心" }],
   }),
   story({
     id: "nagoya-convenience-pudding",
@@ -340,7 +340,7 @@ export const storyItems = [
     placeIds: ["nagoya"],
     days: ["Day 2"],
     tags: ["甜點"],
-    images: [{ src: "/images/nagoya-2026/day-2/convenience-snacks/pudding.webp", alt: "布丁" }],
+    images: [{ src: "./images/nagoya-2026/day-2/convenience-snacks/pudding.webp", alt: "布丁" }],
   }),
   story({
     id: "nagoya-convenience-tomatoes",
@@ -350,7 +350,7 @@ export const storyItems = [
     placeIds: ["nagoya"],
     days: ["Day 2"],
     tags: ["水果"],
-    images: [{ src: "/images/nagoya-2026/day-2/convenience-snacks/tomatoes.webp", alt: "水果番茄" }],
+    images: [{ src: "./images/nagoya-2026/day-2/convenience-snacks/tomatoes.webp", alt: "水果番茄" }],
   }),
   story({
     id: "nagoya-convenience-chocolate",
@@ -360,7 +360,7 @@ export const storyItems = [
     placeIds: ["nagoya"],
     days: ["Day 2"],
     tags: ["點心"],
-    images: [{ src: "/images/nagoya-2026/day-2/convenience-snacks/chocolate.webp", alt: "巧克力零食" }],
+    images: [{ src: "./images/nagoya-2026/day-2/convenience-snacks/chocolate.webp", alt: "巧克力零食" }],
   }),
   story({
     id: "nagoya-convenience-crisps",
@@ -370,7 +370,7 @@ export const storyItems = [
     placeIds: ["nagoya"],
     days: ["Day 2"],
     tags: ["點心"],
-    images: [{ src: "/images/nagoya-2026/day-2/convenience-snacks/crisps.webp", alt: "零食" }],
+    images: [{ src: "./images/nagoya-2026/day-2/convenience-snacks/crisps.webp", alt: "零食" }],
   }),
   story({
     id: "narai-juku",
@@ -380,8 +380,8 @@ export const storyItems = [
     placeIds: ["narai"],
     days: ["Day 3"],
     images: [
-      { src: "/images/nagoya-2026/day-3/narai-juku/station.webp", alt: "奈良井站" },
-      { src: "/images/nagoya-2026/day-3/narai-juku/street.webp", alt: "奈良井宿街道" },
+      { src: "./images/nagoya-2026/day-3/narai-juku/station.webp", alt: "奈良井站" },
+      { src: "./images/nagoya-2026/day-3/narai-juku/street.webp", alt: "奈良井宿街道" },
     ],
   }),
     story({
@@ -392,9 +392,9 @@ export const storyItems = [
     placeIds: ["matsumoto"],
     days: ["Day 3"],
     images: [
-      { src: "/images/nagoya-2026/day-3/matsumoto/castle.webp", alt: "松本城" },
-      { src: "/images/nagoya-2026/day-3/matsumoto/city-view.webp", alt: "松本市區景色" },
-      { src: "/images/nagoya-2026/day-3/matsumoto/castle-moat.webp", alt: "松本城護城河" },
+      { src: "./images/nagoya-2026/day-3/matsumoto/castle.webp", alt: "松本城" },
+      { src: "./images/nagoya-2026/day-3/matsumoto/city-view.webp", alt: "松本市區景色" },
+      { src: "./images/nagoya-2026/day-3/matsumoto/castle-moat.webp", alt: "松本城護城河" },
     ],
   }),
     story({
@@ -405,8 +405,8 @@ export const storyItems = [
     placeIds: ["shinano-omachi"],
     days: ["Day 3"],
     images: [
-      { src: "/images/nagoya-2026/day-3/shinano-omachi/station-night.webp", alt: "信濃大町車站夜景" },
-      { src: "/images/nagoya-2026/day-3/matsumoto/evening-river.webp", alt: "信濃大町傍晚河景" },
+      { src: "./images/nagoya-2026/day-3/shinano-omachi/station-night.webp", alt: "信濃大町車站夜景" },
+      { src: "./images/nagoya-2026/day-3/matsumoto/evening-river.webp", alt: "信濃大町傍晚河景" },
     ],
   }),
   story({
@@ -418,7 +418,7 @@ export const storyItems = [
     days: ["Day 3"],
     tags: ["點心"],
     images: [
-      { src: "/images/nagoya-2026/day-3/narai-food/dango.webp", alt: "奈良井宿糰子" },
+      { src: "./images/nagoya-2026/day-3/narai-food/dango.webp", alt: "奈良井宿糰子" },
     ],
     googleMapsUrl: "https://maps.app.goo.gl/G3EzSYbCn7vCDFTc6",
   }),
@@ -431,10 +431,10 @@ export const storyItems = [
     days: ["Day 3"],
     tags: ["麵食"],
     images: [
-      { src: "/images/nagoya-2026/day-3/narai-food/soba.webp", alt: "奈良井宿蕎麥麵" },
-      { src: "/images/nagoya-2026/day-3/narai-food/soba-set.webp", alt: "奈良井宿蕎麥麵套餐" },
-      { src: "/images/nagoya-2026/day-3/narai-food/cafe-set.webp", alt: "奈良井宿茶屋飲品" },
-      { src: "/images/nagoya-2026/day-3/narai-food/drink.webp", alt: "奈良井宿飲品" },
+      { src: "./images/nagoya-2026/day-3/narai-food/soba.webp", alt: "奈良井宿蕎麥麵" },
+      { src: "./images/nagoya-2026/day-3/narai-food/soba-set.webp", alt: "奈良井宿蕎麥麵套餐" },
+      { src: "./images/nagoya-2026/day-3/narai-food/cafe-set.webp", alt: "奈良井宿茶屋飲品" },
+      { src: "./images/nagoya-2026/day-3/narai-food/drink.webp", alt: "奈良井宿飲品" },
     ],
     googleMapsUrl: "https://maps.app.goo.gl/b4venDKdFCsmHxFPA",
   }),
@@ -448,10 +448,10 @@ export const storyItems = [
     days: ["Day 3"],
     tags: ["拉麵"],
     images: [
-      { src: "/images/nagoya-2026/day-3/matsumoto-food/ramen.webp", alt: "松本拉麵" },
-      { src: "/images/nagoya-2026/day-3/matsumoto-food/tsukemen-set.webp", alt: "松本沾麵套餐" },
-      { src: "/images/nagoya-2026/day-3/matsumoto-food/tsukemen.webp", alt: "松本沾麵" },
-      { src: "/images/nagoya-2026/day-3/matsumoto-food/gyoza.webp", alt: "松本煎餃" },
+      { src: "./images/nagoya-2026/day-3/matsumoto-food/ramen.webp", alt: "松本拉麵" },
+      { src: "./images/nagoya-2026/day-3/matsumoto-food/tsukemen-set.webp", alt: "松本沾麵套餐" },
+      { src: "./images/nagoya-2026/day-3/matsumoto-food/tsukemen.webp", alt: "松本沾麵" },
+      { src: "./images/nagoya-2026/day-3/matsumoto-food/gyoza.webp", alt: "松本煎餃" },
     ],
     googleMapsUrl: "https://maps.app.goo.gl/LCnEJxte7SDFx2QRA",
   }),
@@ -463,7 +463,7 @@ export const storyItems = [
     placeIds: ["matsumoto"],
     days: ["Day 3"],
     tags: ["冰品"],
-    images: [{ src: "/images/nagoya-2026/day-3/matsumoto-food/convenience-ice.webp", alt: "松本便利商店冰品" }],
+    images: [{ src: "./images/nagoya-2026/day-3/matsumoto-food/convenience-ice.webp", alt: "松本便利商店冰品" }],
   }),
   story({
     id: "matsumoto-convenience-snack",
@@ -473,7 +473,7 @@ export const storyItems = [
     placeIds: ["matsumoto"],
     days: ["Day 3"],
     tags: ["冰品"],
-    images: [{ src: "/images/nagoya-2026/day-3/matsumoto-food/local-snack.webp", alt: "松本便利商店點心" }],
+    images: [{ src: "./images/nagoya-2026/day-3/matsumoto-food/local-snack.webp", alt: "松本便利商店點心" }],
   }),
 
   story({
@@ -484,7 +484,7 @@ export const storyItems = [
     placeIds: ["shinano-omachi"],
     days: ["Day 4"],
     tags: ["主食"],
-    images: [{ src: "/images/nagoya-2026/day-3/shinano-omachi-food/dinner-plate.webp", alt: "信濃大町晚餐" }],
+    images: [{ src: "./images/nagoya-2026/day-3/shinano-omachi-food/dinner-plate.webp", alt: "信濃大町晚餐" }],
     googleMapsUrl: "https://maps.app.goo.gl/G5fTQUWSD7rgmiGX6",
   }),
   story({
@@ -495,7 +495,7 @@ export const storyItems = [
     placeIds: ["shinano-omachi"],
     days: ["Day 3"],
     tags: ["飲品"],
-    images: [{ src: "/images/nagoya-2026/day-3/shinano-omachi-food/milk.webp", alt: "信濃大町牛奶" }],
+    images: [{ src: "./images/nagoya-2026/day-3/shinano-omachi-food/milk.webp", alt: "信濃大町牛奶" }],
   }),
   story({
     id: "shinano-omachi-convenience-pudding",
@@ -505,7 +505,7 @@ export const storyItems = [
     placeIds: ["shinano-omachi"],
     days: ["Day 3"],
     tags: ["甜點"],
-    images: [{ src: "/images/nagoya-2026/day-3/shinano-omachi-food/pudding.webp", alt: "信濃大町布丁" }],
+    images: [{ src: "./images/nagoya-2026/day-3/shinano-omachi-food/pudding.webp", alt: "信濃大町布丁" }],
   }),
   story({
     id: "tateyama-route",
@@ -515,9 +515,9 @@ export const storyItems = [
     placeIds: ["tateyama-kurobe"],
     days: ["Day 4"],
     images: [
-      { src: "/images/nagoya-2026/day-4/tateyama-kurobe/go-ogizawa.webp", alt: "信濃大町巴士站" },
-      { src: "/images/nagoya-2026/day-4/tateyama-kurobe/bus.webp", alt: "前往立山黑部的巴士" },
-      { src: "/images/nagoya-2026/day-4/tateyama-kurobe/ogizawa.webp", alt: "扇澤" },
+      { src: "./images/nagoya-2026/day-4/tateyama-kurobe/go-ogizawa.webp", alt: "信濃大町巴士站" },
+      { src: "./images/nagoya-2026/day-4/tateyama-kurobe/bus.webp", alt: "前往立山黑部的巴士" },
+      { src: "./images/nagoya-2026/day-4/tateyama-kurobe/ogizawa.webp", alt: "扇澤" },
     ],
   }),
   story({
@@ -528,10 +528,10 @@ export const storyItems = [
     placeIds: ["tateyama-kurobe"],
     days: ["Day 4"],
     images: [
-      { src: "/images/nagoya-2026/day-4/tateyama-kurobe/kurobe-lake.webp", alt: "黑部湖" },
-      { src: "/images/nagoya-2026/day-4/tateyama-kurobe/kurobe-dam-sign.webp", alt: "黑部水壩標示" },
-      { src: "/images/nagoya-2026/day-4/tateyama-kurobe/mountain-road.webp", alt: "黑部水壩" },
-      { src: "/images/nagoya-2026/day-4/tateyama-kurobe/go-kurobe-dam.webp", alt: "go黑部水壩" },
+      { src: "./images/nagoya-2026/day-4/tateyama-kurobe/kurobe-lake.webp", alt: "黑部湖" },
+      { src: "./images/nagoya-2026/day-4/tateyama-kurobe/kurobe-dam-sign.webp", alt: "黑部水壩標示" },
+      { src: "./images/nagoya-2026/day-4/tateyama-kurobe/mountain-road.webp", alt: "黑部水壩" },
+      { src: "./images/nagoya-2026/day-4/tateyama-kurobe/go-kurobe-dam.webp", alt: "go黑部水壩" },
 
     ],
   }),
@@ -543,10 +543,10 @@ export const storyItems = [
     placeIds: ["tateyama-kurobe"],
     days: ["Day 4"],
     images: [
-      { src: "/images/nagoya-2026/day-4/tateyama-kurobe/snow-peaks.webp", alt: "黑部平山景" },
-      { src: "/images/nagoya-2026/day-4/tateyama-kurobe/ropeway-car.webp", alt: "立山黑部纜車" },
-      { src: "/images/nagoya-2026/day-4/tateyama-kurobe/kurobedaira-cable.webp", alt: "黑部平纜車風景" },
-      { src: "/images/nagoya-2026/day-4/tateyama-kurobe/kurobedaira-station.webp", alt: "黑部平車站" },
+      { src: "./images/nagoya-2026/day-4/tateyama-kurobe/snow-peaks.webp", alt: "黑部平山景" },
+      { src: "./images/nagoya-2026/day-4/tateyama-kurobe/ropeway-car.webp", alt: "立山黑部纜車" },
+      { src: "./images/nagoya-2026/day-4/tateyama-kurobe/kurobedaira-cable.webp", alt: "黑部平纜車風景" },
+      { src: "./images/nagoya-2026/day-4/tateyama-kurobe/kurobedaira-station.webp", alt: "黑部平車站" },
     ],
   }),
   story({
@@ -557,10 +557,10 @@ export const storyItems = [
     placeIds: ["tateyama-kurobe"],
     days: ["Day 4"],
     images: [
-      { src: "/images/nagoya-2026/day-4/tateyama-kurobe/panorama.webp", alt: "大觀峰山景" },
-      { src: "/images/nagoya-2026/day-4/tateyama-kurobe/daikanbo-selfie.webp", alt: "大觀峰自拍" },
-      { src: "/images/nagoya-2026/day-4/tateyama-kurobe/snow-closeup.webp", alt: "大觀峰雪" },
-      { src: "/images/nagoya-2026/day-4/tateyama-kurobe/daikanbo-station.webp", alt: "大觀峰車站" },
+      { src: "./images/nagoya-2026/day-4/tateyama-kurobe/panorama.webp", alt: "大觀峰山景" },
+      { src: "./images/nagoya-2026/day-4/tateyama-kurobe/daikanbo-selfie.webp", alt: "大觀峰自拍" },
+      { src: "./images/nagoya-2026/day-4/tateyama-kurobe/snow-closeup.webp", alt: "大觀峰雪" },
+      { src: "./images/nagoya-2026/day-4/tateyama-kurobe/daikanbo-station.webp", alt: "大觀峰車站" },
     ],
   }),
   story({
@@ -571,10 +571,10 @@ export const storyItems = [
     placeIds: ["tateyama-kurobe"],
     days: ["Day 4"],
     images: [
-      { src: "/images/nagoya-2026/day-4/tateyama-kurobe/snow-plain.webp", alt: "室堂雪原" },
-      { src: "/images/nagoya-2026/day-4/tateyama-kurobe/snow-wall-sign.webp", alt: "雪之大谷標示" },
-      { src: "/images/nagoya-2026/day-4/tateyama-kurobe/snow-wall.webp", alt: "雪之大谷" },
-      { src: "/images/nagoya-2026/day-4/tateyama-kurobe/snow-and-shoes.webp", alt: "雪和鞋子" },
+      { src: "./images/nagoya-2026/day-4/tateyama-kurobe/snow-plain.webp", alt: "室堂雪原" },
+      { src: "./images/nagoya-2026/day-4/tateyama-kurobe/snow-wall-sign.webp", alt: "雪之大谷標示" },
+      { src: "./images/nagoya-2026/day-4/tateyama-kurobe/snow-wall.webp", alt: "雪之大谷" },
+      { src: "./images/nagoya-2026/day-4/tateyama-kurobe/snow-and-shoes.webp", alt: "雪和鞋子" },
 
     ],
   }),
@@ -586,7 +586,7 @@ export const storyItems = [
     placeIds: ["tateyama-kurobe"],
     days: ["Day 4"],
     images: [
-      { src: "/images/nagoya-2026/day-4/tateyama-kurobe/overall-ticket.webp", alt: "立山黑部集章券" },
+      { src: "./images/nagoya-2026/day-4/tateyama-kurobe/overall-ticket.webp", alt: "立山黑部集章券" },
     ],
   }),
 
@@ -598,8 +598,8 @@ export const storyItems = [
     placeIds: ["toyama"],
     days: ["Day 4"],
     images: [
-      { src: "/images/nagoya-2026/day-4/toyama/station.webp", alt: "富山站" },
-      { src: "/images/nagoya-2026/day-4/toyama/station-evening.webp", alt: "富山站傍晚" },
+      { src: "./images/nagoya-2026/day-4/toyama/station.webp", alt: "富山站" },
+      { src: "./images/nagoya-2026/day-4/toyama/station-evening.webp", alt: "富山站傍晚" },
     ],
   }),
   story({
@@ -611,10 +611,10 @@ export const storyItems = [
     days: ["Day 4"],
     tags: ["主食"],
     images: [
-      { src: "/images/nagoya-2026/day-4/toyama-food/tempura.webp", alt: "富山天婦羅" },
-      { src: "/images/nagoya-2026/day-4/toyama-food/tempura-bowl.webp", alt: "富山天婦羅丼" },
-      { src: "/images/nagoya-2026/day-4/toyama-food/dessert.webp", alt: "富山甜點" },
-      { src: "/images/nagoya-2026/day-4/toyama-food/shop.webp", alt: "富山車站餐食店" },
+      { src: "./images/nagoya-2026/day-4/toyama-food/tempura.webp", alt: "富山天婦羅" },
+      { src: "./images/nagoya-2026/day-4/toyama-food/tempura-bowl.webp", alt: "富山天婦羅丼" },
+      { src: "./images/nagoya-2026/day-4/toyama-food/dessert.webp", alt: "富山甜點" },
+      { src: "./images/nagoya-2026/day-4/toyama-food/shop.webp", alt: "富山車站餐食店" },
     ],
     googleMapsUrl: "https://maps.app.goo.gl/5afoFsZQiiNE24KP6",
   }),
@@ -626,7 +626,7 @@ export const storyItems = [
     placeIds: ["toyama"],
     days: ["Day 4"],
     tags: ["冰品"],
-    images: [{ src: "/images/nagoya-2026/day-4/toyama-food/snack.webp", alt: "富山零食" }],
+    images: [{ src: "./images/nagoya-2026/day-4/toyama-food/snack.webp", alt: "富山零食" }],
   }),
   story({
     id: "toyama-convenience-ice",
@@ -636,7 +636,7 @@ export const storyItems = [
     placeIds: ["toyama"],
     days: ["Day 4"],
     tags: ["冰品"],
-    images: [{ src: "/images/nagoya-2026/day-4/toyama-food/ice.webp", alt: "富山冰品" }],
+    images: [{ src: "./images/nagoya-2026/day-4/toyama-food/ice.webp", alt: "富山冰品" }],
   }),
   story({
     id: "toyama-supermarket-strawberries",
@@ -646,7 +646,7 @@ export const storyItems = [
     placeIds: ["toyama"],
     days: ["Day 4"],
     tags: ["水果"],
-    images: [{ src: "/images/nagoya-2026/day-4/toyama-food/strawberries.webp", alt: "富山草莓" }],
+    images: [{ src: "./images/nagoya-2026/day-4/toyama-food/strawberries.webp", alt: "富山草莓" }],
   }),
 
   story({
@@ -658,10 +658,10 @@ export const storyItems = [
     days: ["Day 5"],
     tags: ["主食"],
     images: [
-      { src: "/images/nagoya-2026/day-5/shirakawa-go-food/lunch-set.webp", alt: "白川鄉午餐套餐" },
-      { src: "/images/nagoya-2026/day-5/shirakawa-go-food/hida-beef.webp", alt: "白川鄉飛驒牛" },
-      { src: "/images/nagoya-2026/day-5/shirakawa-go-food/hot-pot.webp", alt: "白川鄉鍋物" },
-      { src: "/images/nagoya-2026/day-5/shirakawa-go-food/drink.webp", alt: "白川鄉飲品" },
+      { src: "./images/nagoya-2026/day-5/shirakawa-go-food/lunch-set.webp", alt: "白川鄉午餐套餐" },
+      { src: "./images/nagoya-2026/day-5/shirakawa-go-food/hida-beef.webp", alt: "白川鄉飛驒牛" },
+      { src: "./images/nagoya-2026/day-5/shirakawa-go-food/hot-pot.webp", alt: "白川鄉鍋物" },
+      { src: "./images/nagoya-2026/day-5/shirakawa-go-food/drink.webp", alt: "白川鄉飲品" },
     ],
     googleMapsUrl: "https://maps.app.goo.gl/T43R7KH5s4ZzdrrJ8",
   }),
@@ -674,9 +674,9 @@ export const storyItems = [
     days: ["Day 5"],
     tags: ["甜點"],
     images: [
-      { src: "/images/nagoya-2026/day-5/shirakawa-go-food/pudding.webp", alt: "白川鄉布丁" },
-      { src: "/images/nagoya-2026/day-5/shirakawa-go-food/soft-serve.webp", alt: "白川鄉霜淇淋" },
-      { src: "/images/nagoya-2026/day-5/shirakawa-go/gassho-house.webp", alt: "白川鄉布丁亭" },
+      { src: "./images/nagoya-2026/day-5/shirakawa-go-food/pudding.webp", alt: "白川鄉布丁" },
+      { src: "./images/nagoya-2026/day-5/shirakawa-go-food/soft-serve.webp", alt: "白川鄉霜淇淋" },
+      { src: "./images/nagoya-2026/day-5/shirakawa-go/gassho-house.webp", alt: "白川鄉布丁亭" },
     ],
   }),
   story({
@@ -688,9 +688,9 @@ export const storyItems = [
     days: ["Day 5"],
     tags: ["拉麵"],
     images: [
-      { src: "/images/nagoya-2026/day-5/takayama-food/ramen.webp", alt: "高山拉麵" },
-      { src: "/images/nagoya-2026/day-5/takayama-food/abura-soba.webp", alt: "高山拌麵" },
-      { src: "/images/nagoya-2026/day-5/takayama-food/hida-beef-skewer.webp", alt: "高山飛驒牛串" },
+      { src: "./images/nagoya-2026/day-5/takayama-food/ramen.webp", alt: "高山拉麵" },
+      { src: "./images/nagoya-2026/day-5/takayama-food/abura-soba.webp", alt: "高山拌麵" },
+      { src: "./images/nagoya-2026/day-5/takayama-food/hida-beef-skewer.webp", alt: "高山飛驒牛串" },
     ],
     googleMapsUrl: "https://maps.app.goo.gl/HTLtTZfZM5DfVdAe8",
   }),
@@ -703,7 +703,7 @@ export const storyItems = [
     days: ["Day 5"],
     tags: ["飲品"],
     images: [
-      { src: "/images/nagoya-2026/day-5/takayama-food/apple-juice.webp", alt: "高山蘋果汁" },
+      { src: "./images/nagoya-2026/day-5/takayama-food/apple-juice.webp", alt: "高山蘋果汁" },
     ],
   }),
   story({
@@ -714,7 +714,7 @@ export const storyItems = [
     placeIds: ["takayama"],
     days: ["Day 5"],
     tags: ["水果"],
-    images: [{ src: "/images/nagoya-2026/day-5/takayama-food/strawberries.webp", alt: "高山草莓" }],
+    images: [{ src: "./images/nagoya-2026/day-5/takayama-food/strawberries.webp", alt: "高山草莓" }],
   }),
   story({
     id: "takayama-convenience-milk",
@@ -724,7 +724,7 @@ export const storyItems = [
     placeIds: ["takayama"],
     days: ["Day 5"],
     tags: ["飲品"],
-    images: [{ src: "/images/nagoya-2026/day-5/takayama-food/milk.webp", alt: "高山牛奶" }],
+    images: [{ src: "./images/nagoya-2026/day-5/takayama-food/milk.webp", alt: "高山牛奶" }],
   }),
   story({
     id: "takayama-convenience-pudding",
@@ -734,7 +734,7 @@ export const storyItems = [
     placeIds: ["takayama"],
     days: ["Day 5"],
     tags: ["甜點"],
-    images: [{ src: "/images/nagoya-2026/day-5/takayama-food/pudding.webp", alt: "高山布丁" }],
+    images: [{ src: "./images/nagoya-2026/day-5/takayama-food/pudding.webp", alt: "高山布丁" }],
   }),
 
   story({
@@ -745,11 +745,11 @@ export const storyItems = [
     placeIds: ["shirakawa-go"],
     days: ["Day 5"],
     images: [
-      { src: "/images/nagoya-2026/day-5/shirakawa-go/village-houses.webp", alt: "白川鄉聚落" },
-      { src: "/images/nagoya-2026/day-5/shirakawa-go/house-and-mountain.webp", alt: "白川鄉房屋與山景" },
-      { src: "/images/nagoya-2026/day-5/shirakawa-go/stone-sign.webp", alt: "白川鄉石碑" },
-      { src: "/images/nagoya-2026/day-5/shirakawa-go/full-view.webp", alt: "白川鄉全景" },
-      { src: "/images/nagoya-2026/day-5/shirakawa-go/observatory-view.webp", alt: "白川鄉景色" },
+      { src: "./images/nagoya-2026/day-5/shirakawa-go/village-houses.webp", alt: "白川鄉聚落" },
+      { src: "./images/nagoya-2026/day-5/shirakawa-go/house-and-mountain.webp", alt: "白川鄉房屋與山景" },
+      { src: "./images/nagoya-2026/day-5/shirakawa-go/stone-sign.webp", alt: "白川鄉石碑" },
+      { src: "./images/nagoya-2026/day-5/shirakawa-go/full-view.webp", alt: "白川鄉全景" },
+      { src: "./images/nagoya-2026/day-5/shirakawa-go/observatory-view.webp", alt: "白川鄉景色" },
     ],
   }),
   story({
@@ -760,10 +760,10 @@ export const storyItems = [
     placeIds: ["shirakawa-go"],
     days: ["Day 5"],
     images: [
-      { src: "/images/nagoya-2026/day-5/shirakawa-go/hearth.webp", alt: "合掌造屋內爐火" },
-      { src: "/images/nagoya-2026/day-5/shirakawa-go/house-front.webp", alt: "白川鄉合掌屋入口" },
-      { src: "/images/nagoya-2026/day-5/shirakawa-go/window-view.webp", alt: "白川鄉窗景" },
-      { src: "/images/nagoya-2026/day-5/shirakawa-go/inside-roof.webp", alt: "白川鄉屋內景色" },
+      { src: "./images/nagoya-2026/day-5/shirakawa-go/hearth.webp", alt: "合掌造屋內爐火" },
+      { src: "./images/nagoya-2026/day-5/shirakawa-go/house-front.webp", alt: "白川鄉合掌屋入口" },
+      { src: "./images/nagoya-2026/day-5/shirakawa-go/window-view.webp", alt: "白川鄉窗景" },
+      { src: "./images/nagoya-2026/day-5/shirakawa-go/inside-roof.webp", alt: "白川鄉屋內景色" },
     ],
   }),
   story({
@@ -774,12 +774,12 @@ export const storyItems = [
     placeIds: ["kamikochi"],
     days: ["Day 6"],
     images: [
-      { src: "/images/nagoya-2026/day-6/kamikochi/taisho-pond.webp", alt: "上高地大正池" },
-      { src: "/images/nagoya-2026/day-6/kamikochi/pond-reflection.webp", alt: "上高地池畔倒影" },
-      { src: "/images/nagoya-2026/day-6/kamikochi/bus-menu.webp", alt: "前往上高地的巴士資訊" },
-      { src: "/images/nagoya-2026/day-6/kamikochi/hotaka-view.webp", alt: "上高地穗高連峰" },
-      { src: "/images/nagoya-2026/day-6/kamikochi/forest-trail.webp", alt: "上高地森林步道" },
-      { src: "/images/nagoya-2026/day-6/kamikochi/azusa-river.webp", alt: "上高地梓川" },
+      { src: "./images/nagoya-2026/day-6/kamikochi/taisho-pond.webp", alt: "上高地大正池" },
+      { src: "./images/nagoya-2026/day-6/kamikochi/pond-reflection.webp", alt: "上高地池畔倒影" },
+      { src: "./images/nagoya-2026/day-6/kamikochi/bus-menu.webp", alt: "前往上高地的巴士資訊" },
+      { src: "./images/nagoya-2026/day-6/kamikochi/hotaka-view.webp", alt: "上高地穗高連峰" },
+      { src: "./images/nagoya-2026/day-6/kamikochi/forest-trail.webp", alt: "上高地森林步道" },
+      { src: "./images/nagoya-2026/day-6/kamikochi/azusa-river.webp", alt: "上高地梓川" },
     ],
   }),
   story({
@@ -790,8 +790,8 @@ export const storyItems = [
     placeIds: ["takayama"],
     days: ["Day 6"],
     images: [
-      { src: "/images/nagoya-2026/day-6/takayama/old-street.webp", alt: "高山老街" },
-      { src: "/images/nagoya-2026/day-5/takayama/old-street-night.webp", alt: "高山老街夜景" },
+      { src: "./images/nagoya-2026/day-6/takayama/old-street.webp", alt: "高山老街" },
+      { src: "./images/nagoya-2026/day-5/takayama/old-street-night.webp", alt: "高山老街夜景" },
     ],
   }),
   story({
@@ -803,9 +803,9 @@ export const storyItems = [
     days: ["Day 6"],
     tags: ["飲品"],
     images: [
-      { src: "/images/nagoya-2026/day-6/takayama/sake-shop.webp", alt: "高山酒造展示" },
-      { src: "/images/nagoya-2026/day-6/takayama/sake-shop-front.webp", alt: "高山酒造店面" },
-      { src: "/images/nagoya-2026/day-6/takayama/drink.webp", alt: "醉酒" },
+      { src: "./images/nagoya-2026/day-6/takayama/sake-shop.webp", alt: "高山酒造展示" },
+      { src: "./images/nagoya-2026/day-6/takayama/sake-shop-front.webp", alt: "高山酒造店面" },
+      { src: "./images/nagoya-2026/day-6/takayama/drink.webp", alt: "醉酒" },
     ],
     googleMapsUrl: "https://maps.app.goo.gl/5ti3TAh9SsxQ1PY9A",
   }),
@@ -818,7 +818,7 @@ export const storyItems = [
     days: ["Day 6"],
     tags: ["甜點"],
     images: [
-      { src: "/images/nagoya-2026/day-6/takayama-food/melon-pudding.webp", alt: "高山布丁" },
+      { src: "./images/nagoya-2026/day-6/takayama-food/melon-pudding.webp", alt: "高山布丁" },
     ],
     googleMapsUrl: "https://maps.app.goo.gl/1BSMCViBZrMxvD2w7",
   }),
@@ -831,7 +831,7 @@ export const storyItems = [
     days: ["Day 6"],
     tags: ["冰品"],
     images: [
-      { src: "/images/nagoya-2026/day-6/takayama-food/soft-serve.webp", alt: "高山霜淇淋" },
+      { src: "./images/nagoya-2026/day-6/takayama-food/soft-serve.webp", alt: "高山霜淇淋" },
     ],
     googleMapsUrl: "https://maps.app.goo.gl/GTBQY756eiqZbDASA",
   }),
@@ -844,7 +844,7 @@ export const storyItems = [
     days: ["Day 6"],
     tags: ["點心"],
     images: [
-      { src: "/images/nagoya-2026/day-6/takayama-food/dango.webp", alt: "高山糰子" },
+      { src: "./images/nagoya-2026/day-6/takayama-food/dango.webp", alt: "高山糰子" },
     ],
     googleMapsUrl: "https://maps.app.goo.gl/8s566SFy7nSQGbZ56",
   }),
@@ -857,9 +857,9 @@ export const storyItems = [
     days: ["Day 6"],
     tags: ["點心"],
     images: [
-      { src: "/images/nagoya-2026/day-6/takayama-food/hida-beef-sushi.webp", alt: "高山飛驒牛握壽司" },
-      { src: "/images/nagoya-2026/day-6/takayama-food/hida-beef-croquette.webp", alt: "高山飛驒牛可樂餅" },
-      { src: "/images/nagoya-2026/day-6/takayama-food/hida-beef-croquette-shop.webp", alt: "高山飛驒牛可樂餅店面" },
+      { src: "./images/nagoya-2026/day-6/takayama-food/hida-beef-sushi.webp", alt: "高山飛驒牛握壽司" },
+      { src: "./images/nagoya-2026/day-6/takayama-food/hida-beef-croquette.webp", alt: "高山飛驒牛可樂餅" },
+      { src: "./images/nagoya-2026/day-6/takayama-food/hida-beef-croquette-shop.webp", alt: "高山飛驒牛可樂餅店面" },
     ],
     googleMapsUrl: "https://maps.app.goo.gl/sMuiZ3vBXWN1BfUc9"
   }),
@@ -872,7 +872,7 @@ export const storyItems = [
     days: ["Day 6"],
     tags: ["點心"],
     images: [
-      { src: "/images/nagoya-2026/day-6/takayama-food/bus-snacks.webp", alt: "高山巴士零食" },
+      { src: "./images/nagoya-2026/day-6/takayama-food/bus-snacks.webp", alt: "高山巴士零食" },
     ],
     googleMapsUrl: "https://maps.app.goo.gl/gVJpXLjhwWSP5jg36",
   }),
@@ -886,11 +886,11 @@ export const storyItems = [
     days: ["Day 6"],
     tags: ["點心"],
     images: [
-      { src: "/images/nagoya-2026/day-6/kamikochi-food/wasabi-mayo-snack.webp", alt: "上高地芥末美乃滋點心" },
-      { src: "/images/nagoya-2026/day-6/kamikochi-food/spring-water.webp", alt: "上高地天然水" },
-      { src: "/images/nagoya-2026/day-6/kamikochi-food/snack-bar.webp", alt: "上高地步道補給" },
-      { src: "/images/nagoya-2026/day-6/kamikochi-food/snack-bar-brown.webp", alt: "上高地點心" },
-      { src: "/images/nagoya-2026/day-6/kamikochi-food/snack-bar-blue.webp", alt: "上高地點心二" },
+      { src: "./images/nagoya-2026/day-6/kamikochi-food/wasabi-mayo-snack.webp", alt: "上高地芥末美乃滋點心" },
+      { src: "./images/nagoya-2026/day-6/kamikochi-food/spring-water.webp", alt: "上高地天然水" },
+      { src: "./images/nagoya-2026/day-6/kamikochi-food/snack-bar.webp", alt: "上高地步道補給" },
+      { src: "./images/nagoya-2026/day-6/kamikochi-food/snack-bar-brown.webp", alt: "上高地點心" },
+      { src: "./images/nagoya-2026/day-6/kamikochi-food/snack-bar-blue.webp", alt: "上高地點心二" },
     ],
   }),
   story({
@@ -902,13 +902,13 @@ export const storyItems = [
     days: ["Day 6"],
     tags: ["主食"],
     images: [
-      { src: "/images/nagoya-2026/day-6/nagoya-food/dinner-table.webp", alt: "名古屋晚餐桌面" },
-      { src: "/images/nagoya-2026/day-6/nagoya-food/yakitori.webp", alt: "名古屋串燒" },
-      { src: "/images/nagoya-2026/day-6/nagoya-food/chicken-skewers.webp", alt: "名古屋雞肉串" },
-      { src: "/images/nagoya-2026/day-6/nagoya-food/beef-skewers.webp", alt: "名古屋牛肉串" },
-      { src: "/images/nagoya-2026/day-6/nagoya-food/fried-chicken.webp", alt: "名古屋炸雞" },
-      { src: "/images/nagoya-2026/day-6/nagoya-food/onion-salad.webp", alt: "名古屋洋蔥沙拉" },
-      { src: "/images/nagoya-2026/day-6/nagoya-food/beer.webp", alt: "名古屋晚餐啤酒" },
+      { src: "./images/nagoya-2026/day-6/nagoya-food/dinner-table.webp", alt: "名古屋晚餐桌面" },
+      { src: "./images/nagoya-2026/day-6/nagoya-food/yakitori.webp", alt: "名古屋串燒" },
+      { src: "./images/nagoya-2026/day-6/nagoya-food/chicken-skewers.webp", alt: "名古屋雞肉串" },
+      { src: "./images/nagoya-2026/day-6/nagoya-food/beef-skewers.webp", alt: "名古屋牛肉串" },
+      { src: "./images/nagoya-2026/day-6/nagoya-food/fried-chicken.webp", alt: "名古屋炸雞" },
+      { src: "./images/nagoya-2026/day-6/nagoya-food/onion-salad.webp", alt: "名古屋洋蔥沙拉" },
+      { src: "./images/nagoya-2026/day-6/nagoya-food/beer.webp", alt: "名古屋晚餐啤酒" },
     ],
     googleMapsUrl: "https://maps.app.goo.gl/pErciHUMTiSd99C38",
   }),
@@ -920,11 +920,11 @@ export const storyItems = [
     placeIds: ["inuyama-castle"],
     days: ["Day 7"],
     images: [
-      { src: "/images/nagoya-2026/day-7/inuyama/castle.webp", alt: "犬山城" },
-      { src: "/images/nagoya-2026/day-7/inuyama/castle-ticket.webp", alt: "犬山城門票" },
-      { src: "/images/nagoya-2026/day-7/inuyama/kiso-river-view.webp", alt: "犬山城木曾川景色" },
-      { src: "/images/nagoya-2026/day-7/inuyama/castle-stamp.webp", alt: "犬山城戳章" },
-      { src: "/images/nagoya-2026/day-7/inuyama/hotel-street.webp", alt: "犬山街景" },
+      { src: "./images/nagoya-2026/day-7/inuyama/castle.webp", alt: "犬山城" },
+      { src: "./images/nagoya-2026/day-7/inuyama/castle-ticket.webp", alt: "犬山城門票" },
+      { src: "./images/nagoya-2026/day-7/inuyama/kiso-river-view.webp", alt: "犬山城木曾川景色" },
+      { src: "./images/nagoya-2026/day-7/inuyama/castle-stamp.webp", alt: "犬山城戳章" },
+      { src: "./images/nagoya-2026/day-7/inuyama/hotel-street.webp", alt: "犬山街景" },
     ],
   }),
   story({
@@ -935,10 +935,10 @@ export const storyItems = [
     placeIds: ["seki"],
     days: ["Day 7"],
     images: [
-      { src: "/images/nagoya-2026/day-7/seki/feather-museum.webp", alt: "關市 Feather Museum" },
-      { src: "/images/nagoya-2026/day-7/seki/knife-museum-display.webp", alt: "關市刀具展示" },
-      { src: "/images/nagoya-2026/day-7/seki/knife-wall.webp", alt: "關市刀具牆" },
-      { src: "/images/nagoya-2026/day-7/seki/knife-shelf.webp", alt: "關市刀具展示櫃" },
+      { src: "./images/nagoya-2026/day-7/seki/feather-museum.webp", alt: "關市 Feather Museum" },
+      { src: "./images/nagoya-2026/day-7/seki/knife-museum-display.webp", alt: "關市刀具展示" },
+      { src: "./images/nagoya-2026/day-7/seki/knife-wall.webp", alt: "關市刀具牆" },
+      { src: "./images/nagoya-2026/day-7/seki/knife-shelf.webp", alt: "關市刀具展示櫃" },
     ],
   }),
   story({
@@ -949,10 +949,10 @@ export const storyItems = [
     placeIds: ["seki"],
     days: ["Day 7"],
     images: [
-      { src: "/images/nagoya-2026/day-7/seki/blade-hall.webp", alt: "岐阜關刃物會館" },
-      { src: "/images/nagoya-2026/day-7/seki/street.webp", alt: "岐阜關刃物會館門牌" },
-      { src: "/images/nagoya-2026/day-7/seki/knife-sf.webp", alt: "岐阜關刃物會館刀具" },
-      { src: "/images/nagoya-2026/day-7/seki/knife-souvenir.webp", alt: "關市刀具伴手禮" },
+      { src: "./images/nagoya-2026/day-7/seki/blade-hall.webp", alt: "岐阜關刃物會館" },
+      { src: "./images/nagoya-2026/day-7/seki/street.webp", alt: "岐阜關刃物會館門牌" },
+      { src: "./images/nagoya-2026/day-7/seki/knife-sf.webp", alt: "岐阜關刃物會館刀具" },
+      { src: "./images/nagoya-2026/day-7/seki/knife-souvenir.webp", alt: "關市刀具伴手禮" },
     ],
   }),
   story({
@@ -963,8 +963,8 @@ export const storyItems = [
     placeIds: ["seki"],
     days: ["Day 7"],
     images: [
-      { src: "/images/nagoya-2026/day-7/seki/shrine.webp", alt: "春日神社" },
-      { src: "/images/nagoya-2026/day-7/seki/shrine-ticket.webp", alt: "春日神社御守" },
+      { src: "./images/nagoya-2026/day-7/seki/shrine.webp", alt: "春日神社" },
+      { src: "./images/nagoya-2026/day-7/seki/shrine-ticket.webp", alt: "春日神社御守" },
     ],
   }),
   story({
@@ -976,9 +976,9 @@ export const storyItems = [
     days: ["Day 7"],
     tags: ["主食"],
     images: [
-      { src: "/images/nagoya-2026/day-7/inuyama-food/curry-udon.webp", alt: "犬山咖哩烏龍麵" },
-      { src: "/images/nagoya-2026/day-7/inuyama-food/croquette.webp", alt: "犬山可樂餅" },
-      { src: "/images/nagoya-2026/day-7/inuyama-food/shop-front.webp", alt: "犬山小吃店" },
+      { src: "./images/nagoya-2026/day-7/inuyama-food/curry-udon.webp", alt: "犬山咖哩烏龍麵" },
+      { src: "./images/nagoya-2026/day-7/inuyama-food/croquette.webp", alt: "犬山可樂餅" },
+      { src: "./images/nagoya-2026/day-7/inuyama-food/shop-front.webp", alt: "犬山小吃店" },
     ],
     googleMapsUrl: "https://maps.app.goo.gl/Y2qmiAVZ2s4TeiZ99",
   }),
@@ -990,7 +990,7 @@ export const storyItems = [
     placeIds: ["seki"],
     days: ["Day 7"],
     tags: ["冰品"],
-    images: [{ src: "/images/nagoya-2026/day-7/seki-food/ice-cream.webp", alt: "關市冰品" }],
+    images: [{ src: "./images/nagoya-2026/day-7/seki-food/ice-cream.webp", alt: "關市冰品" }],
   }),
   story({
     id: "nagoya-day7-convenience-snack",
@@ -1000,7 +1000,7 @@ export const storyItems = [
     placeIds: ["nagoya"],
     days: ["Day 7"],
     tags: ["點心"],
-    images: [{ src: "/images/nagoya-2026/day-7/nagoya-food/snack.webp", alt: "名古屋宵夜零食" }],
+    images: [{ src: "./images/nagoya-2026/day-7/nagoya-food/snack.webp", alt: "名古屋宵夜零食" }],
   }),
   story({
     id: "nagoya-day7-cup-noodle",
@@ -1011,8 +1011,8 @@ export const storyItems = [
     days: ["Day 7"],
     tags: ["麵食"],
     images: [
-      { src: "/images/nagoya-2026/day-7/nagoya-food/cup-noodle.webp", alt: "名古屋杯麵" },
-      { src: "/images/nagoya-2026/day-7/nagoya-food/salad.webp", alt: "名古屋沙拉" }
+      { src: "./images/nagoya-2026/day-7/nagoya-food/cup-noodle.webp", alt: "名古屋杯麵" },
+      { src: "./images/nagoya-2026/day-7/nagoya-food/salad.webp", alt: "名古屋沙拉" }
     ],
   }),
   story({
@@ -1023,7 +1023,7 @@ export const storyItems = [
     placeIds: ["nagoya"],
     days: ["Day 7"],
     tags: ["飲品"],
-    images: [{ src: "/images/nagoya-2026/day-7/nagoya-food/milk.webp", alt: "名古屋牛乳" }],
+    images: [{ src: "./images/nagoya-2026/day-7/nagoya-food/milk.webp", alt: "名古屋牛乳" }],
   }),
   story({
     id: "nagoya-day7-drink",
@@ -1033,7 +1033,7 @@ export const storyItems = [
     placeIds: ["nagoya"],
     days: ["Day 7"],
     tags: ["飲品"],
-    images: [{ src: "/images/nagoya-2026/day-7/nagoya-food/drink.webp", alt: "名古屋飲料" }],
+    images: [{ src: "./images/nagoya-2026/day-7/nagoya-food/drink.webp", alt: "名古屋飲料" }],
   }),
   story({
     id: "nagoya-atsuta-jingu",
@@ -1043,9 +1043,9 @@ export const storyItems = [
     placeIds: ["nagoya"],
     days: ["Day 8"],
     images: [
-      { src: "/images/nagoya-2026/day-8/nagoya-city/sword-display.webp", alt: "名古屋刀劍展示" },
-      { src: "/images/nagoya-2026/day-8/nagoya-city/sword-display-2.webp", alt: "名古屋刀劍展示二" },
-      { src: "/images/nagoya-2026/day-8/nagoya-city/atsuta-jingu.webp", alt: "熱田神宮" },
+      { src: "./images/nagoya-2026/day-8/nagoya-city/sword-display.webp", alt: "名古屋刀劍展示" },
+      { src: "./images/nagoya-2026/day-8/nagoya-city/sword-display-2.webp", alt: "名古屋刀劍展示二" },
+      { src: "./images/nagoya-2026/day-8/nagoya-city/atsuta-jingu.webp", alt: "熱田神宮" },
     ],
   }),
   story({
@@ -1056,9 +1056,9 @@ export const storyItems = [
     placeIds: ["nagoya"],
     days: ["Day 8"],
     images: [
-      { src: "/images/nagoya-2026/day-8/nagoya-city/crayon.webp", alt: "蠟筆小新專賣店" },
-      { src: "/images/nagoya-2026/day-8/nagoya-city/bag.webp", alt: "蠟筆小新書包" },
-      { src: "/images/nagoya-2026/day-8/nagoya-city/kawa.webp", alt: "吉伊卡哇專賣店" },
+      { src: "./images/nagoya-2026/day-8/nagoya-city/crayon.webp", alt: "蠟筆小新專賣店" },
+      { src: "./images/nagoya-2026/day-8/nagoya-city/bag.webp", alt: "蠟筆小新書包" },
+      { src: "./images/nagoya-2026/day-8/nagoya-city/kawa.webp", alt: "吉伊卡哇專賣店" },
     ],
   }),
   story({
@@ -1070,11 +1070,11 @@ export const storyItems = [
     days: ["Day 8"],
     tags: ["主食"],
     images: [
-      { src: "/images/nagoya-2026/day-8/nagoya-food/ogura-toast.webp", alt: "小倉吐司" },
-      { src: "/images/nagoya-2026/day-8/nagoya-food/dango-grill.webp", alt: "烤糰子" },
-      { src: "/images/nagoya-2026/day-8/nagoya-food/dango.webp", alt: "糰子" },
-      { src: "/images/nagoya-2026/day-8/nagoya-food/noodle.webp", alt: "名古屋麵食" },
-      { src: "/images/nagoya-2026/day-8/nagoya-food/mitarashi-dango.webp", alt: "醬油糰子" },
+      { src: "./images/nagoya-2026/day-8/nagoya-food/ogura-toast.webp", alt: "小倉吐司" },
+      { src: "./images/nagoya-2026/day-8/nagoya-food/dango-grill.webp", alt: "烤糰子" },
+      { src: "./images/nagoya-2026/day-8/nagoya-food/dango.webp", alt: "糰子" },
+      { src: "./images/nagoya-2026/day-8/nagoya-food/noodle.webp", alt: "名古屋麵食" },
+      { src: "./images/nagoya-2026/day-8/nagoya-food/mitarashi-dango.webp", alt: "醬油糰子" },
     ],
     googleMapsUrl: "https://maps.app.goo.gl/brv9DEiPPkgqEF4Q9",
   }),
@@ -1087,11 +1087,11 @@ export const storyItems = [
     days: ["Day 8"],
     tags: ["主食"],
     images: [
-      { src: "/images/nagoya-2026/day-8/nagoya-food/hitsumabushi.webp", alt: "鰻魚飯" },
-      { src: "/images/nagoya-2026/day-8/nagoya-food/hitsumabushi-shop.webp", alt: "鰻魚飯店面" },
-      { src: "/images/nagoya-2026/day-8/nagoya-food/eel-skewer.webp", alt: "鰻魚串" },
-      { src: "/images/nagoya-2026/day-8/nagoya-food/eel-rice.webp", alt: "鰻魚飯小碗" },
-      { src: "/images/nagoya-2026/day-8/nagoya-food/eel-chazuke.webp", alt: "鰻魚茶泡飯" },
+      { src: "./images/nagoya-2026/day-8/nagoya-food/hitsumabushi.webp", alt: "鰻魚飯" },
+      { src: "./images/nagoya-2026/day-8/nagoya-food/hitsumabushi-shop.webp", alt: "鰻魚飯店面" },
+      { src: "./images/nagoya-2026/day-8/nagoya-food/eel-skewer.webp", alt: "鰻魚串" },
+      { src: "./images/nagoya-2026/day-8/nagoya-food/eel-rice.webp", alt: "鰻魚飯小碗" },
+      { src: "./images/nagoya-2026/day-8/nagoya-food/eel-chazuke.webp", alt: "鰻魚茶泡飯" },
     ],
     googleMapsUrl: "https://maps.app.goo.gl/Ho7pBFHGFNbHADvm8",
   }),
@@ -1104,7 +1104,7 @@ export const storyItems = [
     days: ["Day 8"],
     tags: ["冰品"],
     images: [
-      { src: "/images/nagoya-2026/day-8/nagoya-food/egg-snack.webp", alt: "雪印麻糬冰" },
+      { src: "./images/nagoya-2026/day-8/nagoya-food/egg-snack.webp", alt: "雪印麻糬冰" },
     ],
   }),
   story({
@@ -1115,8 +1115,8 @@ export const storyItems = [
     placeIds: ["centrair"],
     days: ["Day 9"],
     images: [
-      { src: "/images/nagoya-2026/day-9/centrair/station-exterior.webp", alt: "前往中部機場前的車站外觀" },
-      { src: "/images/nagoya-2026/day-9/centrair/airport-shop.webp", alt: "中部機場商店" },
+      { src: "./images/nagoya-2026/day-9/centrair/station-exterior.webp", alt: "前往中部機場前的車站外觀" },
+      { src: "./images/nagoya-2026/day-9/centrair/airport-shop.webp", alt: "中部機場商店" },
     ],
   }),
   story({
@@ -1128,9 +1128,9 @@ export const storyItems = [
     days: ["Day 9"],
     tags: ["主食"],
     images: [
-      { src: "/images/nagoya-2026/day-9/centrair-food/miso-katsu.webp", alt: "中部機場味噌豬排" },
-      { src: "/images/nagoya-2026/day-9/centrair-food/miso-katsu-set.webp", alt: "中部機場味噌豬排套餐" },
-      { src: "/images/nagoya-2026/day-9/centrair/departure-hall.webp", alt: "中部機場出發大廳" },
+      { src: "./images/nagoya-2026/day-9/centrair-food/miso-katsu.webp", alt: "中部機場味噌豬排" },
+      { src: "./images/nagoya-2026/day-9/centrair-food/miso-katsu-set.webp", alt: "中部機場味噌豬排套餐" },
+      { src: "./images/nagoya-2026/day-9/centrair/departure-hall.webp", alt: "中部機場出發大廳" },
     ],
     googleMapsUrl: "https://maps.app.goo.gl/KbtYF9rBAZ2C5K2A9",
   }),
@@ -1142,7 +1142,7 @@ export const storyItems = [
     placeIds: ["centrair"],
     days: ["Day 9"],
     tags: ["點心"],
-    images: [{ src: "/images/nagoya-2026/day-9/centrair-food/breakfast-snack.webp", alt: "中部機場前早餐點心" }],
+    images: [{ src: "./images/nagoya-2026/day-9/centrair-food/breakfast-snack.webp", alt: "中部機場前早餐點心" }],
   }),
   story({
     id: "centrair-supermarket-soy-milk",
@@ -1152,7 +1152,7 @@ export const storyItems = [
     placeIds: ["centrair"],
     days: ["Day 9"],
     tags: ["飲品"],
-    images: [{ src: "/images/nagoya-2026/day-9/centrair-food/soy-milk.webp", alt: "中部機場豆乳" }],
+    images: [{ src: "./images/nagoya-2026/day-9/centrair-food/soy-milk.webp", alt: "中部機場豆乳" }],
   }),
   story({
     id: "centrair-supermarket-strawberries",
@@ -1162,7 +1162,7 @@ export const storyItems = [
     placeIds: ["centrair"],
     days: ["Day 9"],
     tags: ["水果"],
-    images: [{ src: "/images/nagoya-2026/day-9/centrair-food/strawberries.webp", alt: "中部機場草莓" }],
+    images: [{ src: "./images/nagoya-2026/day-9/centrair-food/strawberries.webp", alt: "中部機場草莓" }],
   }),
   story({
     id: "centrair-supermarket-melon-bread",
@@ -1172,7 +1172,7 @@ export const storyItems = [
     placeIds: ["centrair"],
     days: ["Day 9"],
     tags: ["甜點"],
-    images: [{ src: "/images/nagoya-2026/day-9/centrair-food/melon-bread.webp", alt: "中部機場點心" }],
+    images: [{ src: "./images/nagoya-2026/day-9/centrair-food/melon-bread.webp", alt: "中部機場點心" }],
   }),
     story({
     id: "centrair-food",
@@ -1183,9 +1183,9 @@ export const storyItems = [
     days: ["Day 9"],
     tags: ["主食"],
     images: [
-      { src: "/images/nagoya-2026/day-9/centrair-food/flight-meal.webp", alt: "飛機餐" },
-      { src: "/images/nagoya-2026/day-9/centrair-food/flight-udon.webp", alt: "飛機餐烏龍麵" },
-      { src: "/images/nagoya-2026/day-9/centrair-food/flight-drink.webp", alt: "飛機上飲料" },
+      { src: "./images/nagoya-2026/day-9/centrair-food/flight-meal.webp", alt: "飛機餐" },
+      { src: "./images/nagoya-2026/day-9/centrair-food/flight-udon.webp", alt: "飛機餐烏龍麵" },
+      { src: "./images/nagoya-2026/day-9/centrair-food/flight-drink.webp", alt: "飛機上飲料" },
     ],
   }),
 ];
@@ -1200,8 +1200,8 @@ export const itineraryDays = [
     placeIds: ["centrair", "nagoya"],
     note: "抵達、入住、名古屋市區第一天。",
     heroImages: [
-      { src: "/images/placeholders/day-1.webp", alt: "Day 1 抵達名古屋" },
-      { src: "/images/nagoya-2026/day-9/centrair/departure-hall.webp", alt: "中部機場出發大廳" },
+      { src: "./images/placeholders/day-1.webp", alt: "Day 1 抵達名古屋" },
+      { src: "./images/nagoya-2026/day-9/centrair/departure-hall.webp", alt: "中部機場出發大廳" },
     ],
     routeStartName: "中部機場",
     routeEndName: "名古屋",
@@ -1218,8 +1218,8 @@ export const itineraryDays = [
     placeIds: ["nagoya"],
     note: "名古屋市區行程。",
     heroImages: [
-      { src: "/images/placeholders/day-2.webp", alt: "Day 2 名古屋市區" },
-      { src: "/images/nagoya-2026/day-2/nagoya-castle/castle.webp", alt: "名古屋城" },
+      { src: "./images/placeholders/day-2.webp", alt: "Day 2 名古屋市區" },
+      { src: "./images/nagoya-2026/day-2/nagoya-castle/castle.webp", alt: "名古屋城" },
     ],
     routeStartName: "名古屋",
     routeEndName: "名古屋",
@@ -1232,8 +1232,8 @@ export const itineraryDays = [
     placeIds: ["nagoya", "narai", "matsumoto", "shinano-omachi"],
     note: "從名古屋出發，經奈良井與松本，最後到信濃大町。",
     heroImages: [
-      { src: "/images/placeholders/day-3.webp", alt: "Day 3 奈良井與松本" },
-      { src: "/images/nagoya-2026/day-3/matsumoto/castle-moat.webp", alt: "松本城護城河" },
+      { src: "./images/placeholders/day-3.webp", alt: "Day 3 奈良井與松本" },
+      { src: "./images/nagoya-2026/day-3/matsumoto/castle-moat.webp", alt: "松本城護城河" },
     ],
     routeStartName: "名古屋",
     routeEndName: "信濃大町",
@@ -1256,8 +1256,8 @@ export const itineraryDays = [
     placeIds: ["shinano-omachi", "tateyama-kurobe", "toyama"],
     note: "從信濃大町穿越立山黑部山岳路線後抵達富山。",
     heroImages: [
-      { src: "/images/placeholders/day-4.webp", alt: "Day 4 立山黑部" },
-      { src: "/images/nagoya-2026/day-4/tateyama-kurobe/kurobe-lake.webp", alt: "黑部湖" },
+      { src: "./images/placeholders/day-4.webp", alt: "Day 4 立山黑部" },
+      { src: "./images/nagoya-2026/day-4/tateyama-kurobe/kurobe-lake.webp", alt: "黑部湖" },
     ],
     routeStartName: "信濃大町",
     routeEndName: "富山",
@@ -1283,8 +1283,8 @@ export const itineraryDays = [
     placeIds: ["toyama", "shirakawa-go", "takayama"],
     note: "從富山搭巴士到白川鄉，再搭巴士到高山。",
     heroImages: [
-      { src: "/images/placeholders/day-5.webp", alt: "Day 5 白川鄉" },
-      { src: "/images/nagoya-2026/day-5/takayama/old-street-night.webp", alt: "高山老街夜景" },
+      { src: "./images/placeholders/day-5.webp", alt: "Day 5 白川鄉" },
+      { src: "./images/nagoya-2026/day-5/takayama/old-street-night.webp", alt: "高山老街夜景" },
     ],
     routeStartName: "富山",
     routeEndName: "高山",
@@ -1303,8 +1303,8 @@ export const itineraryDays = [
     placeIds: ["takayama", "kamikochi", "nagoya"],
     note: "從高山搭巴士到上高地，再回高山轉巴士到名古屋。",
     heroImages: [
-      { src: "/images/placeholders/day-6.webp", alt: "Day 6 高山到名古屋" },
-      { src: "/images/nagoya-2026/day-5/takayama/old-street-night.webp", alt: "高山老街" },
+      { src: "./images/placeholders/day-6.webp", alt: "Day 6 高山到名古屋" },
+      { src: "./images/nagoya-2026/day-5/takayama/old-street-night.webp", alt: "高山老街" },
     ],
     routeStartName: "高山",
     routeEndName: "名古屋",
@@ -1326,8 +1326,8 @@ export const itineraryDays = [
     placeIds: ["nagoya", "inuyama-castle", "seki"],
     note: "從名古屋搭名鐵到犬山，再往關市，最後搭高速巴士回名古屋。",
     heroImages: [
-      { src: "/images/placeholders/day-7.webp", alt: "Day 7 關市" },
-      { src: "/images/nagoya-2026/day-7/seki/knife-wall.webp", alt: "關市刀具展示" },
+      { src: "./images/placeholders/day-7.webp", alt: "Day 7 關市" },
+      { src: "./images/nagoya-2026/day-7/seki/knife-wall.webp", alt: "關市刀具展示" },
     ],
     routeStartName: "名古屋",
     routeEndName: "名古屋",
@@ -1347,8 +1347,8 @@ export const itineraryDays = [
     placeIds: ["nagoya"],
     note: "名古屋市區行程。",
     heroImages: [
-      { src: "/images/placeholders/day-8.webp", alt: "Day 8 名古屋市區" },
-      { src: "/images/nagoya-2026/day-8/nagoya-city/atsuta-jingu.webp", alt: "熱田神宮" },
+      { src: "./images/placeholders/day-8.webp", alt: "Day 8 名古屋市區" },
+      { src: "./images/nagoya-2026/day-8/nagoya-city/atsuta-jingu.webp", alt: "熱田神宮" },
     ],
     routeStartName: "名古屋",
     routeEndName: "名古屋",
@@ -1361,8 +1361,8 @@ export const itineraryDays = [
     placeIds: ["nagoya", "centrair"],
     note: "從名古屋到常滑，最後前往中部機場。",
     heroImages: [
-      { src: "/images/placeholders/day-9.webp", alt: "Day 9 中部機場" },
-      { src: "/images/nagoya-2026/day-9/centrair/lounge.webp", alt: "中部機場貴賓室" },
+      { src: "./images/placeholders/day-9.webp", alt: "Day 9 中部機場" },
+      { src: "./images/nagoya-2026/day-9/centrair/lounge.webp", alt: "中部機場貴賓室" },
     ],
     routeStartName: "名古屋",
     routeEndName: "中部機場",
@@ -1416,7 +1416,7 @@ export const dayStories = Object.fromEntries(
       cover:
         day.heroImages?.[0]?.src ||
         places.find((place) => place.id === day.placeIds[0])?.cover ||
-        "/images/placeholders/chubu-banner.webp",
+        "./images/placeholders/chubu-banner.webp",
       reflection: day.note,
       attractionSections: storyItems.filter(
         (item) => item.category === "attraction" && item.days.includes(day.day)

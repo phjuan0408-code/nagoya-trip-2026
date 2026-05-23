@@ -54,7 +54,7 @@ export default function Food() {
       <StorySectionGrid
         title={activeTag === "全部" ? "全部美食" : `${activeTag}紀錄`}
         sections={filteredSections}
-        fallbackImage="/images/placeholders/nagoya.webp"
+        fallbackImage="./images/placeholders/nagoya.webp"
       />
     </section>
   );

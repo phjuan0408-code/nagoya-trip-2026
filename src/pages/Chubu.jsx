@@ -9,7 +9,7 @@ export default function Chubu() {
         title="NAGOYA & CHUBU"
         meta="2026/5/8 - 5/16"
         subtitle="名古屋、木曾路、北阿爾卑斯到富山與岐阜。"
-        imageUrl="/images/placeholders/chubu-banner.webp"
+        imageUrl="./images/placeholders/chubu-banner.webp"
       />
 
       <section className="mx-auto max-w-5xl px-4 py-8 text-center font-serif text-[#504339]">
