@@ -1,5 +1,5 @@
 import { Line, Marker, ComposableMap, Geographies, Geography } from "react-simple-maps";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import japanGeo from "../data/japan-prefectures-lite.json";
 
@@ -17,12 +17,21 @@ export default function PrefectureMap({
 }) {
   const navigate = useNavigate();
   const [hovered, setHovered] = useState(null);
+  const mapRef = useRef(null);
+  const [mapWidth, setMapWidth] = useState(0);
 
-  const config = mode === "chubu"
-    ? { scale: 7800, center: [137.25, 35.95] }
-    : { scale: 1800, center: [137.4, 37.1] };
+  useEffect(() => {
+    if (!mapRef.current) return;
 
-  const mapHeight = mode === "chubu" ? 560 : 680;
+    const resizeObserver = new ResizeObserver(([entry]) => {
+      setMapWidth(entry.contentRect.width);
+    });
+
+    resizeObserver.observe(mapRef.current);
+    return () => resizeObserver.disconnect();
+  }, []);
+
+  const { config, mapHeight, sizes } = getResponsiveMapConfig(mode, mapWidth);
 
   const regionByPrefecture = useMemo(() => {
     const map = new Map();
@@ -62,7 +71,7 @@ export default function PrefectureMap({
     : mapPlaces;
 
   return (
-    <div className="relative w-full overflow-hidden">
+    <div ref={mapRef} className="relative w-full overflow-hidden">
       <ComposableMap
         projection="geoMercator"
         projectionConfig={config}
@@ -154,12 +163,14 @@ export default function PrefectureMap({
               name={routeEndpointNames?.start}
               labelOffset={routeEndpointLabelOffsets?.start}
               color="#2f5f8f"
+              sizes={sizes}
             />
             <RouteEndpoint
               coordinates={routeCoordinates[routeCoordinates.length - 1]}
               name={routeEndpointNames?.end}
               labelOffset={routeEndpointLabelOffsets?.end}
               color="#c8553d"
+              sizes={sizes}
             />
           </>
         )}
@@ -176,10 +187,11 @@ export default function PrefectureMap({
                 y={mode === "chubu" ? 0 : 20}
                 textAnchor="middle"
                 className={mode === "chubu" ? "select-none font-serif text-[19px] font-bold" : "select-none font-serif text-[17px] font-bold"}
+                style={{ fontSize: sizes.regionFontSize }}
                 fill="#2f2722"
                 paintOrder="stroke"
                 stroke="#fff8f0"
-                strokeWidth={mode === "chubu" ? 4 : 3}
+                strokeWidth={sizes.regionTextStrokeWidth}
               >
                 {region.title}
               </text>
@@ -199,20 +211,21 @@ export default function PrefectureMap({
               onClick={() => navigate(`/place/${place.id}`)}
             >
               <circle
-                r={6}
+                r={sizes.placeRadius}
                 fill="#ffffff"
                 stroke="#504339"
-                strokeWidth={2}
+                strokeWidth={sizes.placeStrokeWidth}
               />
               <text
                 x={labelOffset?.[0] || 0}
                 y={labelOffset?.[1] ?? -12}
                 textAnchor="middle"
-                className="select-none font-serif text-[14px] font-bold"
+                className="select-none font-serif font-bold"
+                style={{ fontSize: sizes.placeFontSize }}
                 fill="#111"
                 paintOrder="stroke"
                 stroke="#fff8f0"
-                strokeWidth={3}
+                strokeWidth={sizes.placeTextStrokeWidth}
               >
                 {place.name}
               </text>
@@ -231,23 +244,119 @@ export default function PrefectureMap({
   );
 }
 
-function RouteEndpoint({ coordinates, color, name, labelOffset }) {
+function getResponsiveMapConfig(mode, width) {
+  const isPhone = width > 0 && width < 520;
+  const isTablet = width >= 520 && width < 820;
+
+  if (mode === "chubu") {
+    if (isPhone) {
+      return {
+        config: { scale: 16500, center: [137.12, 36.0] },
+        mapHeight: 860,
+        sizes: mobileSizes,
+      };
+    }
+
+    if (isTablet) {
+      return {
+        config: { scale: 9800, center: [137.25, 35.95] },
+        mapHeight: 760,
+        sizes: tabletSizes,
+      };
+    }
+
+    return {
+      config: { scale: 7800, center: [137.25, 35.95] },
+      mapHeight: 560,
+      sizes: desktopSizes,
+    };
+  }
+
+  if (isPhone) {
+    return {
+      config: { scale: 4800, center: [135.65, 34.65] },
+      mapHeight: 780,
+      sizes: mobileSizes,
+    };
+  }
+
+  if (isTablet) {
+    return {
+      config: { scale: 2500, center: [136.85, 35.8] },
+      mapHeight: 780,
+      sizes: tabletSizes,
+    };
+  }
+
+  return {
+    config: { scale: 1800, center: [137.4, 37.1] },
+    mapHeight: 680,
+    sizes: desktopSizes,
+  };
+}
+
+const desktopSizes = {
+  regionFontSize: 19,
+  regionTextStrokeWidth: 4,
+  placeRadius: 6,
+  placeStrokeWidth: 2,
+  placeFontSize: 14,
+  placeTextStrokeWidth: 3,
+  endpointRadius: 9,
+  endpointStrokeWidth: 3,
+  endpointFontSize: 14,
+  endpointTextStrokeWidth: 3,
+};
+
+const tabletSizes = {
+  regionFontSize: 24,
+  regionTextStrokeWidth: 5,
+  placeRadius: 8,
+  placeStrokeWidth: 2.4,
+  placeFontSize: 18,
+  placeTextStrokeWidth: 4,
+  endpointRadius: 11,
+  endpointStrokeWidth: 3.4,
+  endpointFontSize: 18,
+  endpointTextStrokeWidth: 4,
+};
+
+const mobileSizes = {
+  regionFontSize: 32,
+  regionTextStrokeWidth: 6,
+  placeRadius: 10,
+  placeStrokeWidth: 3,
+  placeFontSize: 22,
+  placeTextStrokeWidth: 5,
+  endpointRadius: 13,
+  endpointStrokeWidth: 4,
+  endpointFontSize: 22,
+  endpointTextStrokeWidth: 5,
+};
+
+function RouteEndpoint({ coordinates, color, name, labelOffset, sizes }) {
   const [x = 0, y = -14] = labelOffset || [];
 
   return (
     <Marker coordinates={coordinates}>
       <g>
-        <circle r={9} fill="#ffffff" stroke={color} strokeWidth={3} />
+        <circle
+          r={sizes.endpointRadius}
+          fill="#ffffff"
+          stroke={color}
+          strokeWidth={sizes.endpointStrokeWidth}
+        />
         {name && (
           <text
             x={x}
             y={y}
             textAnchor="middle"
-            className="select-none font-serif text-[14px] font-bold"
+            className="select-none font-serif font-bold"
+            style={{ fontSize: sizes.endpointFontSize }}
             fill="#111"
             paintOrder="stroke"
             stroke="#fff8f0"
-            strokeWidth={3}
+            strokeWidth={sizes.endpointTextStrokeWidth}
           >
             {name}
           </text>
