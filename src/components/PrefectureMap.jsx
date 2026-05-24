@@ -251,7 +251,7 @@ function getResponsiveMapConfig(mode, width) {
   if (mode === "chubu") {
     if (isPhone) {
       return {
-        config: { scale: 16500, center: [137.12, 36.0] },
+        config: { scale: 13800, center: [137.82, 35.95] },
         mapHeight: 860,
         sizes: mobileSizes,
       };
