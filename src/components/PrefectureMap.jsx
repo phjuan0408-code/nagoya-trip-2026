@@ -201,6 +201,9 @@ export default function PrefectureMap({
 
         {visiblePlaces.map((place) => {
           const labelOffset = placeLabelOffsets[place.id] || place.labelOffset;
+          const labelX = labelOffset?.[0] || 0;
+          const labelY = labelOffset?.[1] ?? sizes.placeDefaultLabelY;
+          const labelAnchor = labelX > 0 ? "start" : labelX < 0 ? "end" : "middle";
 
           return (
           <Marker key={place.id} coordinates={place.coordinates}>
@@ -217,9 +220,9 @@ export default function PrefectureMap({
                 strokeWidth={sizes.placeStrokeWidth}
               />
               <text
-                x={labelOffset?.[0] || 0}
-                y={labelOffset?.[1] ?? -12}
-                textAnchor="middle"
+                x={labelX}
+                y={labelY}
+                textAnchor={labelAnchor}
                 className="select-none font-serif font-bold"
                 style={{ fontSize: sizes.placeFontSize }}
                 fill="#111"
@@ -302,6 +305,7 @@ const desktopSizes = {
   placeStrokeWidth: 2,
   placeFontSize: 14,
   placeTextStrokeWidth: 3,
+  placeDefaultLabelY: -12,
   endpointRadius: 9,
   endpointStrokeWidth: 3,
   endpointFontSize: 14,
@@ -315,6 +319,7 @@ const tabletSizes = {
   placeStrokeWidth: 2.4,
   placeFontSize: 18,
   placeTextStrokeWidth: 4,
+  placeDefaultLabelY: -16,
   endpointRadius: 11,
   endpointStrokeWidth: 3.4,
   endpointFontSize: 18,
@@ -328,6 +333,7 @@ const mobileSizes = {
   placeStrokeWidth: 3,
   placeFontSize: 22,
   placeTextStrokeWidth: 5,
+  placeDefaultLabelY: -22,
   endpointRadius: 13,
   endpointStrokeWidth: 4,
   endpointFontSize: 22,
