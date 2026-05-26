@@ -162,7 +162,7 @@ export const storyItems = [
   story({
     id: "nagoya-station",
     title: "蝦仙貝之里",
-    body: "抵達中部機場後先遇到的伴手禮店，蝦仙貝的包裝與香氣很有日本機場的第一印象。",
+    body: "蝦仙貝之里是很多人到中部機場時會順路逛的伴手禮店，各種蝦餅口味和試吃都很有名。店內滿滿蝦仙貝香氣，加上日式包裝風格，很有日本旅行剛開始的感覺。",
     category: "attraction",
     placeIds: ["nagoya"],
     days: ["Day 1"],
@@ -173,7 +173,7 @@ export const storyItems = [
   story({
     id: "nagoya-station",
     title: "名古屋站",
-    body: "抵達後先往名古屋站移動，巨大的車站空間、轉乘動線與周邊街景，替這趟中部旅行拉開城市感的開場。",
+    body: "名古屋站是中部地區最大的交通樞紐之一，巨大的車站空間結合百貨、地下街與商業大樓，白天和夜晚都有很強烈的都市感，是名古屋相當有代表性的街景。",
     category: "attraction",
     placeIds: ["nagoya"],
     days: ["Day 1"],
@@ -184,7 +184,7 @@ export const storyItems = [
   story({
     id: "nagoya-station",
     title: "星宇飛機餐（去程）",
-    body: "飛往名古屋途中的第一餐，兒童餐與胡同雞腿餐先把旅行的心情帶上空中。",
+    body: "星宇的飛機餐果然沒讓人失望，主餐和配菜都比預期更有水準，尤其兒童餐意外很好吃，從飛機上就開始有旅行感。",
     category: "food",
     placeIds: ["nagoya"],
     tags: ["主食"],
@@ -197,7 +197,7 @@ export const storyItems = [
   story({
     id: "nagoya-food",
     title: "烏龍麵 錦",
-    body: "抵達名古屋後的第一餐是熱呼呼的烏龍麵和咖哩烏龍麵，湯頭、麵條和車站附近的店面一起留下剛到日本的第一個晚餐畫面。",
+    body: "名古屋很有名的烏龍麵店，麵條Q彈、湯頭濃郁，尤其咖哩口味特別讓人印象深刻。天氣偏冷時來上一碗，真的會瞬間暖起來。",
     category: "food",
     placeIds: ["nagoya"],
     days: ["Day 1"],
@@ -211,7 +211,7 @@ export const storyItems = [
   story({
     id: "nagoya-day1-convenience-food",
     title: "超商宵夜",
-    body: "入住後補上的第一晚宵夜，超商餐點是日本旅行很日常、也最容易讓人安心的一部分。",
+    body: "日本超商宵夜真的很容易失控，牛奶、甜點、冰品和小零食不知不覺就買滿一桌。雖然都是隨手挑的，但很多都意外好吃，也是日本旅行很有趣的一部分。",
     category: "food",
     placeIds: ["nagoya"],
     days: ["Day 1"],
@@ -223,7 +223,7 @@ export const storyItems = [
     story({
     id: "nagoya-castle",
     title: "名古屋城",
-    body: "第二天從名古屋城開始，天守、門票與城內廣場把城市的歷史感拉出來。比起匆匆打卡，這裡的建築和周邊樹影值得慢慢看。",
+    body: "名古屋最具代表性的地標之一，天守外觀氣勢十足，屋頂上的金鯱也很有辨識度。城內保留濃厚歷史感，搭配大片城牆與庭園，整體氛圍相當有日本傳統城郭的特色。",
     category: "attraction",
     placeIds: ["nagoya"],
     days: ["Day 2"],
@@ -236,7 +236,7 @@ export const storyItems = [
   story({
     id: "nagoya-miso-katsu",
     title: "Sugakiya",
-    body: "名古屋常見的平價連鎖味道，簡單的麵食、店面招牌和明亮店內都很有在地連鎖店的樣子。",
+    body: "小時候記憶中的味道，雖然是平價連鎖拉麵，但味道完全不馬虎。經典酸筍和湯頭很有特色，簡單卻讓人懷念。",
     category: "food",
     placeIds: ["nagoya"],
     days: ["Day 2"],
@@ -250,7 +250,7 @@ export const storyItems = [
   story({
     id: "nagoya-coffee",
     title: "星巴克焙茶那堤",
-    body: "市區移動中稍微停下來的一杯焙茶那堤，茶香、奶香和甜味都很柔和，替名古屋城和晚餐之間留下一段慢下來的空白。",
+    body: "很多人推薦的焙茶那堤，茶香濃郁卻不苦澀，奶香和甜味也很剛好，意外地很好喝。",
     category: "food",
     placeIds: ["nagoya"],
     days: ["Day 2"],
@@ -261,7 +261,7 @@ export const storyItems = [
   story({
     id: "nagoya-castle-snack",
     title: "琥珀堂 蕨餅",
-    body: "名古屋城附近的蕨餅甜點，柔軟口感配上黃豆粉香氣，吃起來很輕。看完城後用甜點收一下節奏剛剛好。",
+    body: "名古屋城附近的人氣蕨餅甜點，口感柔軟帶點彈性，裹上滿滿黃豆粉後香氣很濃，甜而不膩。",
     category: "food",
     placeIds: ["nagoya"],
     days: ["Day 2"],
@@ -272,7 +272,7 @@ export const storyItems = [
   story({
     id: "nagoya-ramen",
     title: "名古屋辛麵 鯱輪",
-    body: "第二天晚餐走重口味路線，擔擔麵、辛味拌麵與店面招牌都很有記憶點。辣味和麵香讓名古屋夜晚變得更熱鬧。",
+    body: "名古屋式的辣味拉麵，乾拌麵和湯拉麵都很有記憶點。湯頭微微香辣，味道濃厚但不會膩口，是會想再回訪的店。",
     category: "food",
     placeIds: ["nagoya"],
     days: ["Day 2"],
@@ -289,7 +289,7 @@ export const storyItems = [
   story({
     id: "nagoya-ice-bar-1",
     title: "雷神冰棒",
-    body: "便利商店買到的雷神冰棒，巧克力甜味很直接，像是日本超商冰櫃裡最容易被吸引的小驚喜。",
+    body: "每次來日本必吃的雷神冰棒，硬脆巧克力外皮配上雷神餅乾口感很過癮，甜度和脆感都很剛好。",
     category: "food",
     placeIds: ["nagoya"],
     days: ["Day 2"],
@@ -301,7 +301,7 @@ export const storyItems = [
   story({
     id: "nagoya-convenience-drink",
     title: "7-11綠拿鐵",
-    body: "7-11 的綠拿鐵有抹茶清香，冰涼順口，甜度和茶味都很輕。",
+    body: "日本少數能順便補充蔬菜纖維的選擇，雖然價格不算便宜，但味道意外不錯，喝起來清爽又方便。",
     category: "food",
     placeIds: ["nagoya"],
     days: ["Day 2"],
@@ -313,7 +313,7 @@ export const storyItems = [
   story({
     id: "nagoya-convenience-berry-1",
     title: "博多甘王草莓",
-    body: "博多甘王草莓顏色漂亮、果香明顯，果肉飽滿，放在飯店吃時甜味很清楚。",
+    body: "博多甘王草莓香氣很濃，外觀看起來也很漂亮，不過實際吃起來的驚艷感沒有想像中高。",
     category: "food",
     placeIds: ["nagoya"],
     days: ["Day 2"],
@@ -325,7 +325,7 @@ export const storyItems = [
   story({
     id: "nagoya-convenience-kuromitsu",
     title: "黑糖羊羹",
-    body: "黑糖羊羹帶著濃厚黑糖香，甜度明顯但份量剛好，吃起來是很俐落的小甜點。",
+    body: "在 7-11 隨手買的小點心，原本沒特別期待，結果黑糖香氣和Q彈口感意外很不錯。",
     category: "food",
     placeIds: ["nagoya"],
     days: ["Day 2"],
@@ -334,8 +334,8 @@ export const storyItems = [
   }),
   story({
     id: "nagoya-convenience-pudding",
-    title: "牛乳布丁",
-    body: "超好吃的牛乳布丁，奶香濃、口感滑順，冰過之後吃起來很舒服，是這晚便利商店甜點裡很中意的一個。",
+    title: "鮮奶布丁",
+    body: "整趟旅程最好吃的鮮奶布丁，奶香非常濃郁，口感滑順細緻，吃起來有點像奶酪的感覺。",
     category: "food",
     placeIds: ["nagoya"],
     days: ["Day 2"],
@@ -345,7 +345,7 @@ export const storyItems = [
   story({
     id: "nagoya-convenience-tomatoes",
     title: "水果番茄",
-    body: "水果番茄甜度高、口感清爽，剛好平衡這天拉麵和超商點心的重口味。",
+    body: "日本超市買的水果番茄意外超好吃，甜度高又很多汁，口感清爽，剛好平衡白天一路吃下來的重口味料理。",
     category: "food",
     placeIds: ["nagoya"],
     days: ["Day 2"],
@@ -355,7 +355,7 @@ export const storyItems = [
   story({
     id: "nagoya-convenience-chocolate",
     title: "浸染巧克力麵包脆餅",
-    body: "把巧克力滲進麵包脆餅裡的小點心。外層酥、裡面有巧克力香，甜味和脆感都很明確。",
+    body: "口感有點像義美巧克力酥片，酥脆又帶著濃濃巧克力香，而且包裝還有夾鏈袋設計很方便。",
     category: "food",
     placeIds: ["nagoya"],
     days: ["Day 2"],
@@ -365,7 +365,7 @@ export const storyItems = [
   story({
     id: "nagoya-convenience-crisps",
     title: "二度焙煎仙貝",
-    body: "二度焙煎仙貝的香氣比一般米菓更明顯，咬起來酥脆、鹹香，是便利商店零食裡很耐吃的一款。",
+    body: "超級好吃的醬油仙貝，刷上醬油後再回烤兩次，讓每一口都充滿濃厚醬香。鹹度控制得剛剛好，不會過於死鹹，越吃越涮嘴。",
     category: "food",
     placeIds: ["nagoya"],
     days: ["Day 2"],
@@ -375,7 +375,7 @@ export const storyItems = [
   story({
     id: "narai-juku",
     title: "奈良井宿",
-    body: "第三天從名古屋往山區移動，中途停在奈良井宿。長長的木造街屋沿著中山道展開，從車站走進街道時，時間像被山谷放慢。",
+    body: "中山道上保存完整的宿場町，街道兩旁保留大量木造建築。安靜的山城氛圍與濃厚歷史感，讓整條老街很有特色。",
     category: "attraction",
     placeIds: ["narai"],
     days: ["Day 3"],
@@ -392,9 +392,9 @@ export const storyItems = [
     placeIds: ["matsumoto"],
     days: ["Day 3"],
     images: [
+      { src: "./images/nagoya-2026/day-3/matsumoto/castle-moat.webp", alt: "松本城護城河" },
       { src: "./images/nagoya-2026/day-3/matsumoto/castle.webp", alt: "松本城" },
       { src: "./images/nagoya-2026/day-3/matsumoto/city-view.webp", alt: "松本市區景色" },
-      { src: "./images/nagoya-2026/day-3/matsumoto/castle-moat.webp", alt: "松本城護城河" },
     ],
   }),
     story({
@@ -425,7 +425,7 @@ export const storyItems = [
   story({
     id: "narai-food",
     title: "そば処山なか",
-    body: "在奈良井宿吃的蕎麥麵與茶屋飲品，麵條、套餐和飲品都帶著木曾路宿場町的安靜節奏。",
+    body: "天婦羅蕎麥麵表現中規中矩，蕈菇蕎麥麵則意外有特色，菇香融進湯頭裡很不錯。甘酒也很好喝，米香和淡淡甜味讓人印象深刻。",
     category: "food",
     placeIds: ["narai"],
     days: ["Day 3"],
@@ -442,7 +442,7 @@ export const storyItems = [
   story({
     id: "matsumoto-food",
     title: "麺匠佐蔵",
-    body: "松本晚餐選了麺匠佐蔵，拉麵、沾麵與煎餃都很有份量。從奈良井一路移動到松本後，這餐剛好把體力補回來。",
+    body: "松本的信州味增拉麵名店，拉麵與沾麵風味都很有特色，各有不同魅力。味增湯頭濃郁卻不膩，搭配麵條非常順口，味增煎餃也很好吃，整體讓人很滿足。",
     category: "food",
     placeIds: ["matsumoto"],
     days: ["Day 3"],
@@ -458,7 +458,7 @@ export const storyItems = [
   story({
     id: "matsumoto-convenience-ice",
     title: "薄荷麻糬口感冰棒",
-    body: "松本晚上買的薄荷麻糬口感冰棒，清涼薄荷味加上咀嚼感很特別。",
+    body: "麻糬口感的薄荷冰棒意外很新奇，清爽薄荷味搭配QQ口感很有特色。外層脆皮也替整體增加層次，甜度和涼感平衡得不錯，整體吃起來很讚。",
     category: "food",
     placeIds: ["matsumoto"],
     days: ["Day 3"],
@@ -468,24 +468,12 @@ export const storyItems = [
   story({
     id: "matsumoto-convenience-snack",
     title: "抹茶餅乾冰",
-    body: "抹茶餅乾冰帶著茶香和餅乾口感，甜度不會太單調。放在移動日的夜晚吃，很有日本超商冰品的樂趣。",
+    body: "抹茶餅乾冰帶著濃濃茶香和餅乾口感，甜度不會太單調。外層微苦的抹茶和裡面的冰淇淋很搭，咬下去還能吃到餅乾的酥脆感，整體層次很不錯。",
     category: "food",
     placeIds: ["matsumoto"],
     days: ["Day 3"],
     tags: ["冰品"],
     images: [{ src: "./images/nagoya-2026/day-3/matsumoto-food/local-snack.webp", alt: "松本便利商店點心" }],
-  }),
-
-  story({
-    id: "shinano-omachi-food",
-    title: "Hotel KOKO 早餐",
-    body: "從信濃大町出發前，在 Hotel KOKO 先吃一份簡單但踏實的早餐。這天要穿越立山黑部，早上的熱食像是替長距離換乘先補好力氣。",
-    category: "food",
-    placeIds: ["shinano-omachi"],
-    days: ["Day 4"],
-    tags: ["主食"],
-    images: [{ src: "./images/nagoya-2026/day-3/shinano-omachi-food/dinner-plate.webp", alt: "信濃大町晚餐" }],
-    googleMapsUrl: "https://maps.app.goo.gl/G5fTQUWSD7rgmiGX6",
   }),
   story({
     id: "shinano-omachi-convenience-milk",
@@ -500,7 +488,7 @@ export const storyItems = [
   story({
     id: "shinano-omachi-convenience-pudding",
     title: "燒布丁",
-    body: "信濃大町買的燒布丁有焦香和奶香，口感滑順，冷藏後吃起來更乾淨。",
+    body: "口感綿密滑順，帶有濃郁蛋香與奶香，上層微苦的焦糖醬更增添層次感，甜而不膩。",
     category: "food",
     placeIds: ["shinano-omachi"],
     days: ["Day 3"],
@@ -589,7 +577,6 @@ export const storyItems = [
       { src: "./images/nagoya-2026/day-4/tateyama-kurobe/overall-ticket.webp", alt: "立山黑部集章券" },
     ],
   }),
-
   story({
     id: "toyama-city",
     title: "富山站",
@@ -603,9 +590,20 @@ export const storyItems = [
     ],
   }),
   story({
+    id: "shinano-omachi-food",
+    title: "Hotel KOKO 早餐",
+    body: "Hotel KOKO 的自助早餐種類算不少，炸物、生菜沙拉和熱食都有，整體簡單但蠻有滿足感，味道也比預期更不錯。",
+    category: "food",
+    placeIds: ["shinano-omachi"],
+    days: ["Day 4"],
+    tags: ["主食"],
+    images: [{ src: "./images/nagoya-2026/day-3/shinano-omachi-food/dinner-plate.webp", alt: "信濃大町晚餐" }],
+    googleMapsUrl: "https://maps.app.goo.gl/G5fTQUWSD7rgmiGX6",
+  }),
+  story({
     id: "toyama-food",
     title: "天婦羅 富山白蝦亭",
-    body: "抵達富山後的晚餐選在富山白蝦亭，天婦羅和白蝦丼都很符合富山的海味印象。從山上下來後吃到熱騰騰的炸物，整天的移動感瞬間被安頓下來。",
+    body: "富山白蝦亭的天婦羅都是現炸的，外皮酥脆、海鮮也很新鮮。炸螢魷和白蝦都很有富山特色，白蝦生魚片甜味明顯，但還是吃得到一點點腥味。",
     category: "food",
     placeIds: ["toyama"],
     days: ["Day 4"],
@@ -621,7 +619,7 @@ export const storyItems = [
   story({
     id: "toyama-convenience-snack",
     title: "7-11芒果冰棒",
-    body: "富山晚上買的 7-11 芒果冰棒，水果香和冰涼感很直接，口味明亮。",
+    body: "這個冰棒是用芒果汁做成的，吃起來有點像芒果乾的味道，水果感蠻明顯，不過整體表現算普通。",
     category: "food",
     placeIds: ["toyama"],
     days: ["Day 4"],
@@ -631,7 +629,7 @@ export const storyItems = [
   story({
     id: "toyama-convenience-ice",
     title: "爽冰",
-    body: "回到住宿後補上的爽冰，口感清涼、吃起來輕鬆，是長距離移動後很舒服的便利商店冰品。",
+    body: "日本很經典的爽冰，口感綿密又帶點微冰沙感，吃起來特別清爽。香草味不會太甜，冰感和奶香平衡得很剛好",
     category: "food",
     placeIds: ["toyama"],
     days: ["Day 4"],
@@ -641,7 +639,7 @@ export const storyItems = [
   story({
     id: "toyama-supermarket-strawberries",
     title: "栃木愛香草莓",
-    body: "富山超市買到的栃木愛香草莓，外觀鮮紅飽滿，甜度和果香都很明顯。",
+    body: "栃木的愛香草莓外觀鮮紅飽滿，果香和甜味都很明顯。比起一般草莓更偏甜一些，咬下去很多汁，草莓香氣也很濃。",
     category: "food",
     placeIds: ["toyama"],
     days: ["Day 4"],
@@ -652,7 +650,7 @@ export const storyItems = [
   story({
     id: "shirakawa-go-food",
     title: "鄉土料理 いろり",
-    body: "白川鄉村內的鄉土料理午餐，飛驒牛、鍋物與定食擺在木造屋舍旁，味道樸實，份量也很完整。",
+    body: "味增葉子燒飛驒牛非常下飯，牛肉香又嫩。醃漬小魚也很驚艷，連骨頭都能直接吃。雞腿肉軟嫩到幾乎入口即化，雞肉香氣依然很濃，梅子酒也很好喝。",
     category: "food",
     placeIds: ["shirakawa-go"],
     days: ["Day 5"],
@@ -668,7 +666,7 @@ export const storyItems = [
     story({
     id: "shirakawa-go-village",
     title: "白川鄉 布丁的家",
-    body: "白川鄉布丁的家有布丁、霜淇淋和合掌造造型的店面，甜點外觀可愛，奶香也很明顯。",
+    body: "白川鄉很有名的水布丁，下層其實比較像果凍，口感偏清爽。相比之下布丁本身比較好吃，奶香比較明顯，布丁口味冰淇淋也還不錯。",
     category: "food",
     placeIds: ["shirakawa-go"],
     days: ["Day 5"],
@@ -682,7 +680,7 @@ export const storyItems = [
   story({
     id: "takayama-ramen",
     title: "飛驒中華拉麵專門店",
-    body: "抵達高山後的晚餐從飛驒中華拉麵開始，醬油湯底、拌麵與飛驒牛串放在一起，像是進入飛驒高山後第一組濃厚的味覺記憶。",
+    body: "高山的飛驒牛拉麵店，拉麵本身其實不錯，湯頭和麵條都有水準。不過飛驒牛表現就比較普通，感覺更偏向噱頭類型，算是吃過一次就好的店。",
     category: "food",
     placeIds: ["takayama"],
     days: ["Day 5"],
@@ -697,7 +695,7 @@ export const storyItems = [
   story({
     id: "takayama-apple-juice",
     title: "寶CRAFT 飛驒蘋果酒",
-    body: "飛驒蘋果酒有清楚的蘋果香和微微酒感，包裝帶著地方限定字樣，喝起來甜度輕、果味明顯。",
+    body: "飛驒蘋果酒帶著很明顯的蘋果香氣，微氣泡喝起來很順口。甜度偏輕，帶點果汁感，是高山當地限定的特色飲品。",
     category: "food",
     placeIds: ["takayama"],
     days: ["Day 5"],
@@ -709,7 +707,7 @@ export const storyItems = [
   story({
     id: "takayama-supermarket-strawberries",
     title: "岐阜華かがり草莓",
-    body: "岐阜華かがり草莓色澤鮮亮、果肉飽滿，放在高山住宿的夜晚裡，成了高山很鮮明的水果記憶。",
+    body: "岐阜華かがり草莓外觀鮮紅飽滿，甜味和果香都很明顯。果肉偏軟又很多汁，酸味不高，整體吃起來很甜。",
     category: "food",
     placeIds: ["takayama"],
     days: ["Day 5"],
@@ -719,7 +717,7 @@ export const storyItems = [
   story({
     id: "takayama-convenience-milk",
     title: "ひるがの3.6牛乳",
-    body: "ひるがの3.6牛乳奶味乾淨，喝起來有厚度但不膩，瓶身標示也很有飛驒地區乳品的辨識度。",
+    body: "ひるがの3.6牛乳奶味很濃，但口感意外乾淨順口，不會有太厚重的感覺。喝起來奶香很自然，也沒有過重的乳味。",
     category: "food",
     placeIds: ["takayama"],
     days: ["Day 5"],
@@ -729,7 +727,7 @@ export const storyItems = [
   story({
     id: "takayama-convenience-pudding",
     title: "ひるが牛奶布丁",
-    body: "ひるが牛奶布丁奶香濃、口感滑順，和同系列牛乳放在一起，很像高山夜晚的乳製品小集合。",
+    body: "用飛驒地區ひるがの高原的牛奶做成的，奶香非常濃郁，口感滑順細緻。甜度不高，整體吃起來很舒服。",
     category: "food",
     placeIds: ["takayama"],
     days: ["Day 5"],
@@ -797,7 +795,7 @@ export const storyItems = [
   story({
     id: "takayama-melon-pudding",
     title: "山車釀酒場",
-    body: "山車釀酒場的木造外觀、酒瓶陳列和試飲畫面都很清楚，呈現高山老街裡的酒造文化。",
+    body: "可以用 500 日圓品嚐不同口味的清酒，試飲杯還能直接帶回家當紀念。店內木造氛圍和酒瓶展示也很有高山老街的感覺。",
     category: "food",
     placeIds: ["takayama"],
     days: ["Day 6"],
@@ -812,7 +810,7 @@ export const storyItems = [
   story({
     id: "takayama-melon-pudding",
     title: "高山布丁亭",
-    body: "高山布丁亭的布丁帶著濃郁奶香，包裝和店面都很有觀光老街的可愛感。柔軟口感和高山清晨的街景形成很溫和的對比。",
+    body: "這幾天吃到最好吃的布丁店，開心果香氣非常明顯，口感綿密滑順，甜味和奶香層次都很不錯。",
     category: "food",
     placeIds: ["takayama"],
     days: ["Day 6"],
@@ -825,7 +823,7 @@ export const storyItems = [
   story({
     id: "takayama-soft-serve",
     title: "Sugi蜜蜂農園 霜淇淋",
-    body: "Sugi蜜蜂農園的霜淇淋奶味清楚，蜂蜜香氣讓甜味更圓潤，外觀也很乾淨。",
+    body: "牛奶霜淇淋加了蜂蜜和蜂巢蜜，甜味非常直接。冰淇淋本身就偏甜，再加上蜂蜜後整體甜度更高，吃到後面會有點膩。",
     category: "food",
     placeIds: ["takayama"],
     days: ["Day 6"],
@@ -838,7 +836,7 @@ export const storyItems = [
   story({
     id: "takayama-dango",
     title: "二四三屋 烤糰子",
-    body: "二四三屋的烤糰子帶著醬油焦香，表面微微上色，吃起來是高山老街很直接的米香與鹹甜味。",
+    body: "高山老街很有名的烤糰子，實際吃起來有點失望。糰子偏冷，醬油香氣也不明顯，調味還偏鹹，和想像中的差不少。",
     category: "food",
     placeIds: ["takayama"],
     days: ["Day 6"],
@@ -851,7 +849,7 @@ export const storyItems = [
   story({
     id: "takayama-hida-beef-croquette",
     title: "飛驒牛壽喜燒・涮涮鍋 中橋 若千家",
-    body: "中橋若千家的飛驒牛小吃把握壽司、串烤和牛、可樂餅和店面一起記下來，肉香明顯，和高山老街的飛驒牛印象接得很緊。",
+    body: "中橋若子家的飛驒牛小點心非常好吃，A5 飛驒牛握壽司和烤串都很軟嫩又充滿肉香。現炸可樂餅也非常酥脆飽滿，是很適合一次體驗飛驒牛各種吃法的店。",
     category: "food",
     placeIds: ["takayama"],
     days: ["Day 6"],
@@ -866,7 +864,7 @@ export const storyItems = [
   story({
     id: "takayama-bus-snacks",
     title: "駿河屋超市 點心",
-    body: "駿河屋超市買的點心包裝簡單，口味偏日常，放在移動途中很有地方超市的生活感。",
+    body: "等巴士前去超市買的小點心意外很滿足，炸白身魚配上當地優格很解膩。草莓搭配布丁有點像在沾煉乳，甜味和奶香很搭，整體吃起來很像豪華版下午茶。",
     category: "food",
     placeIds: ["takayama"],
     days: ["Day 6"],
@@ -896,7 +894,7 @@ export const storyItems = [
   story({
     id: "nagoya-day6-dinner",
     title: "鳥貴族",
-    body: "從上高地回到名古屋後，鳥貴族的串燒、炸雞、啤酒與小菜排滿桌面，城市晚餐的熱鬧感很明顯。",
+    body: "鳥貴族是日本很有名的平價串燒連鎖店，串燒種類很多，調味偏重但很下酒。價格實惠、味道也不錯，很適合體驗日本居酒屋的熱鬧氛圍。",
     category: "food",
     placeIds: ["nagoya"],
     days: ["Day 6"],
@@ -970,7 +968,7 @@ export const storyItems = [
   story({
     id: "inuyama-snacks",
     title: "滑嫩蛋包飯 さん太",
-    body: "犬山城下町的 さん太 是岡崎蛋包飯名店 とろーり卵のオムライス さん太 的分店，本店曾以蛋包飯拿下日本第一。特色是半熟蛋鋪在飯上後切開，蛋液會像瀑布一樣滑下來，口感柔軟濃郁。",
+    body: "岡崎蛋包飯名店とろーり卵のオムライス さん太 的分店。特色是半熟蛋鋪在飯上後切開，蛋液會像瀑布一樣滑下來，口感柔軟濃郁。",
     category: "food",
     placeIds: ["inuyama-castle"],
     days: ["Day 7"],
@@ -985,7 +983,7 @@ export const storyItems = [
   story({
     id: "seki-food",
     title: "乳酸脆皮冰棒",
-    body: "關市途中吃到的乳酸脆皮冰棒，外層脆感和酸甜乳酸味很鮮明，接在刀具展示與街道移動之後，留下清涼的一筆。",
+    body: "乳酸脆皮冰棒外層脆脆的，裡面的乳酸味很明顯，吃起來有點像乳酸飲料做成的冰。酸甜感很清爽，有脆皮的冰都給讚！",
     category: "food",
     placeIds: ["seki"],
     days: ["Day 7"],
@@ -995,7 +993,7 @@ export const storyItems = [
   story({
     id: "nagoya-day7-convenience-snack",
     title: "螢烏賊",
-    body: "螢烏賊是日本海沿岸常見的小型烏賊，富山灣一帶尤其有名，名字來自牠會發出藍白色光。保留了濃縮的鹹香海味，咬起來很有下酒菜感。",
+    body: "富山很有名的螢烏賊，小小一隻但海味非常濃。口感偏Q，帶著一點內臟香氣和微苦味，是很有特色的下酒菜。",
     category: "food",
     placeIds: ["nagoya"],
     days: ["Day 7"],
@@ -1005,7 +1003,7 @@ export const storyItems = [
   story({
     id: "nagoya-day7-cup-noodle",
     title: "信州味噌杯麵+水菜",
-    body: "信州味噌杯麵加上水菜，湯頭有味噌香，水菜則讓口感更清爽。",
+    body: "信州味噌杯麵的味噌香氣很明顯，湯頭偏濃但不會太死鹹。加上水菜後多了一點清爽感，吃起來比想像中更順口。",
     category: "food",
     placeIds: ["nagoya"],
     days: ["Day 7"],
@@ -1018,7 +1016,7 @@ export const storyItems = [
   story({
     id: "nagoya-day7-milk",
     title: "大地牛乳",
-    body: "回到名古屋後買的大地牛乳，奶味濃郁但順口，口感乾淨。",
+    body: "大地牛乳奶味非常濃，但喝起來意外順口，不會有太厚重的感覺。奶香很自然，也沒有過重的乳味，是款好喝的牛奶。",
     category: "food",
     placeIds: ["nagoya"],
     days: ["Day 7"],
@@ -1028,7 +1026,7 @@ export const storyItems = [
   story({
     id: "nagoya-day7-drink",
     title: "檸檬沙瓦",
-    body: "檸檬沙瓦酸甜明亮，氣泡感清楚，喝起來帶著俐落的檸檬香。",
+    body: "檸檬沙瓦酸味很直接，氣泡感也很強，喝起來很清爽。檸檬香氣明顯，搭配宵夜和炸物都很適合。",
     category: "food",
     placeIds: ["nagoya"],
     days: ["Day 7"],
@@ -1038,7 +1036,7 @@ export const storyItems = [
   story({
     id: "nagoya-atsuta-jingu",
     title: "熱田神宮 草薙劍展覽",
-    body: "熱田神宮供奉三神器之一草薙劍，這次也看了和草薙劍相關的展示。展場裡的刀劍資料、展示櫃與神宮境內放在一起，讓名古屋的歷史感更清楚。",
+    body: "熱田神宮供奉著日本三神器之一的草薙劍，展覽裡能看到許多和刀劍相關的資料與展示，還能實際體驗草薙劍的重量。",
     category: "attraction",
     placeIds: ["nagoya"],
     days: ["Day 8"],
@@ -1051,7 +1049,7 @@ export const storyItems = [
   story({
     id: "nagoya-parco",
     title: "名古屋 PARCO",
-    body: "名古屋 PARCO 裡有蠟筆小新和吉伊卡哇等角色店，店內展示、周邊商品和小新書包都很可愛，是這天市區購物的輕鬆段落。",
+    body: "名古屋 PARCO 裡有很多動漫角色快閃店和周邊商品，蠟筆小新、神奇寶貝等店面都很吸睛。整棟百貨偏年輕流行感，很適合慢慢逛各種角色商品。",
     category: "attraction",
     placeIds: ["nagoya"],
     days: ["Day 8"],
@@ -1098,7 +1096,7 @@ export const storyItems = [
   story({
     id: "nagoya-day8-food",
     title: "雪印大福冰淇淋",
-    body: "雪印大福冰淇淋外層是柔軟麻糬皮，裡面包著冰淇淋，口感一冷一軟，吃起來很有日本便利商店冰品的熟悉感。",
+    body: "雪印大福冰淇淋外層是柔軟麻糬皮，裡面包著香草冰淇淋，口感一冷一Q很有特色。麻糬帶點黏性，配上冰涼內餡後吃起來特別順口。",
     category: "food",
     placeIds: ["nagoya"],
     days: ["Day 8"],
@@ -1110,7 +1108,7 @@ export const storyItems = [
   story({
     id: "tokoname-walk",
     title: "永旺STYLE 常滑店",
-    body: "回程前先到永旺STYLE常滑店採買，車站外觀、商店和中部機場周邊動線都接在一起。這一站主要是把最後的水果、飲品和點心補齊。",
+    body: "永旺 STYLE 常滑店是中部機場附近的大型購物中心，超市、藥妝和伴手禮都很齊全，也是很多人回國前最後補貨的一站。",
     category: "attraction",
     placeIds: ["centrair"],
     days: ["Day 9"],
@@ -1122,7 +1120,7 @@ export const storyItems = [
   story({
     id: "centrair-food",
     title: "矢場味噌豬排",
-    body: "最後一天在中部機場吃味噌豬排套餐，炸豬排配上濃厚味噌醬，鹹甜味很明顯。出發大廳和機場餐廳畫面放在一起，旅程開始進入回程節奏。",
+    body: "名古屋很有名的味增豬排，炸豬排配上濃厚味增醬非常下飯。味增鹹甜味很明顯，雖然價格偏高，但味道確實不錯。",
     category: "food",
     placeIds: ["centrair"],
     days: ["Day 9"],
@@ -1137,7 +1135,7 @@ export const storyItems = [
   story({
     id: "centrair-convenience-breakfast-snack",
     title: "だし醬油おかか結飯糰",
-    body: "だし醬油おかか結飯糰是柴魚與醬油風味的飯糰，米飯、海苔和柴魚香氣很直接，是回程日早上的鹹味小食。",
+    body: "だし醬油飯糰就是很普通的超商飯糰，醬油和海苔味道都有，但整體中規中矩，沒留下太多記憶點。",
     category: "food",
     placeIds: ["centrair"],
     days: ["Day 9"],
@@ -1147,7 +1145,7 @@ export const storyItems = [
   story({
     id: "centrair-supermarket-soy-milk",
     title: "濃牛乳",
-    body: "永旺STYLE買的濃牛乳不是純牛奶，但奶香厚、甜味順，喝起來比一般乳飲料更濃。",
+    body: "雖然是乳飲品不是鮮奶，但喝起來意外很像鮮奶，奶味濃又順口，甜味也很自然，算是很好喝的一款。",
     category: "food",
     placeIds: ["centrair"],
     days: ["Day 9"],
@@ -1157,7 +1155,7 @@ export const storyItems = [
   story({
     id: "centrair-supermarket-strawberries",
     title: "愛知縣 夢之香 草莓",
-    body: "永旺STYLE買的愛知縣夢之香草莓，外觀大顆飽滿，果肉多汁，甜度也高。",
+    body: "夢之香草莓是這幾天吃到最甜也最香的一款，果肉很多汁，草莓味非常明顯，吃起來很有滿足感。",
     category: "food",
     placeIds: ["centrair"],
     days: ["Day 9"],
@@ -1167,17 +1165,34 @@ export const storyItems = [
   story({
     id: "centrair-supermarket-melon-bread",
     title: "抹茶馬卡龍",
-    body: "抹茶馬卡龍外殼帶一點酥感，內餡有抹茶香和甜味，尺寸不大但味道集中。",
+    body: "抹茶馬卡龍甜度控制得不錯，不會過甜也不容易膩。抹茶香氣很濃，裡面的內餡也很滑順。",
     category: "food",
     placeIds: ["centrair"],
     days: ["Day 9"],
     tags: ["甜點"],
     images: [{ src: "./images/nagoya-2026/day-9/centrair-food/melon-bread.webp", alt: "中部機場點心" }],
   }),
+  story({
+    id: "centrair-lounge-snack",
+    title: "新特麗亞貴賓室",
+    body: "新特麗亞貴賓室雖然提供的東西不算多，但啤酒很好喝、小餅乾也很好吃。整體環境安靜舒服，當作回程前休息很剛好。",
+    category: "food",
+    placeIds: ["centrair"],
+    days: ["Day 9"],
+    tags: ["點心"],
+    images: [
+      { src: "./images/nagoya-2026/day-9/centrair/lounge-snacks.webp", alt: "中部機場貴賓室" },
+      { src: "./images/nagoya-2026/day-9/centrair/lounge-drinks.webp", alt: "中部機場貴賓室" },
+      { src: "./images/nagoya-2026/day-9/centrair/lounge-coffee.webp", alt: "中部機場貴賓室" },
+      { src: "./images/nagoya-2026/day-9/centrair/lounge-beer.webp", alt: "中部機場貴賓室" },
+      { src: "./images/nagoya-2026/day-9/centrair/lounge.webp", alt: "中部機場貴賓室" },
+    ],
+    googleMapsUrl: "https://maps.app.goo.gl/6RXvb21WEoRU6RCf8",
+  }),
     story({
     id: "centrair-food",
     title: "星宇飛機餐（回程）",
-    body: "回程星宇飛機餐包含主餐、烏龍麵和飲料，餐盤配置簡單清楚。從中部機場起飛後，這組照片把最後一段移動也收進旅程裡。",
+    body: "回程的星宇飛機餐就比較普通，兒童餐沒有去程好吃，主食不太熱、調味也偏鹹，蔬菜吃起來有點偏生。不過咖哩烏龍麵不錯，星宇特調也蠻好喝的。",
     category: "food",
     placeIds: ["centrair"],
     days: ["Day 9"],
@@ -1361,7 +1376,7 @@ export const itineraryDays = [
     placeIds: ["nagoya", "centrair"],
     note: "從名古屋到常滑，最後前往中部機場。",
     heroImages: [
-      { src: "./images/placeholders/day-9.webp", alt: "Day 9 中部機場" },
+      { src: "./images/nagoya-2026/places/lounge.webp", alt: "Day 9 中部機場貴賓室" },
       { src: "./images/nagoya-2026/day-9/centrair/lounge.webp", alt: "中部機場貴賓室" },
     ],
     routeStartName: "名古屋",
@@ -1380,7 +1395,7 @@ export const itineraryDays = [
 
 const dayStoryOverrides = {
   "day-1": {
-    reflection: "從中部機場落地後進入名古屋市區，第一天主要是熟悉交通、入住與用一碗熱食把旅行狀態打開。",
+    reflection: "從中部機場落地後進入名古屋市區，第一天主要是熟悉交通、入住與用一碗熱熱的烏龍麵把旅行狀態打開。",
   },
   "day-2": {
     reflection: "這天把時間留給名古屋市區，從名古屋城、咖啡與拉麵一路走到便利商店宵夜，是最完整的城市日常。",
@@ -1389,7 +1404,7 @@ const dayStoryOverrides = {
     reflection: "從名古屋一路往木曾路與長野山區移動，這天經過奈良井宿、松本城，最後抵達信濃大町。",
   },
   "day-4": {
-    reflection: "信濃大町出發後穿越立山黑部，雪牆、水壩、纜車與富山夜晚讓這天成為移動感最強的一段。",
+    reflection: "信濃大町出發後穿越立山黑部，雪牆、水壩、纜車與富山夜晚，把北阿爾卑斯的山岳景色一路串連起來。",
   },
   "day-5": {
     reflection: "從富山搭巴士進入白川鄉，再到高山過夜，山村、合掌造與老街夜景讓岐阜這段特別有層次。",
@@ -1401,10 +1416,10 @@ const dayStoryOverrides = {
     reflection: "名古屋近郊的一天，犬山城、關市刀具文化與回程高速巴士，把城下町和工藝城市串成一條路線。",
   },
   "day-8": {
-    reflection: "旅程倒數第二天回到名古屋市區，熱田神宮、展覽與在地美食讓城市細節慢慢補齊。",
+    reflection: "旅程倒數第二天回到名古屋市區，熱田神宮與在地美食讓城市細節慢慢補齊。",
   },
   "day-9": {
-    reflection: "最後一天從名古屋往中部機場移動，在機場餐食與回程飛機餐裡，把九天旅程收進返程路上。",
+    reflection: "最後一天從名古屋一路移動到中部機場，在機場附近的商場、超市與回程飛機餐之間，慢慢替這趟九天旅程劃下句點。",
   },
 };
 

@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { ArrowRight, MapPin } from "lucide-react";
 import { itineraryDays, places } from "../data/tripData.js";
 
@@ -6,6 +6,8 @@ const placeById = new Map(places.map((place) => [place.id, place]));
 const daySlug = (day) => day.toLowerCase().replace(/\s+/g, "-");
 
 export default function Itinerary() {
+  const navigate = useNavigate();
+
   return (
     <section className="mx-auto max-w-5xl px-4 py-12">
       <div className="font-serif">
@@ -22,7 +24,19 @@ export default function Itinerary() {
           const dayPath = `/day/${daySlug(day.day)}`;
 
           return (
-            <article key={day.day} className="rounded-lg bg-white p-5 shadow-md">
+            <article
+              key={day.day}
+              role="link"
+              tabIndex={0}
+              onClick={() => navigate(dayPath)}
+              onKeyDown={(event) => {
+                if (event.key === "Enter" || event.key === " ") {
+                  event.preventDefault();
+                  navigate(dayPath);
+                }
+              }}
+              className="cursor-pointer rounded-lg bg-white p-5 shadow-md transition hover:-translate-y-0.5 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-travel-green/40"
+            >
               <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
                 <div>
                   <Link
@@ -47,6 +61,8 @@ export default function Itinerary() {
                   <div key={place.id} className="flex items-center gap-3">
                     <Link
                       to={`/place/${place.id}`}
+                      onClick={(event) => event.stopPropagation()}
+                      onKeyDown={(event) => event.stopPropagation()}
                       className="inline-flex items-center gap-2 rounded-md bg-travel-mist px-3 py-2 text-sm font-semibold text-travel-ink transition hover:bg-white hover:shadow-sm"
                     >
                       <MapPin size={16} />
