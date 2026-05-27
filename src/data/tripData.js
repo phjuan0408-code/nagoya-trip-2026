@@ -100,7 +100,7 @@ export const places = [
     summary: "前往立山黑部前的山麓小城，夜裡抵達、隔天清晨出發，像是山岳路線正式開始前的前奏。",
     cover: "./images/nagoya-2026/day-3/shinano-omachi/station-night.webp",
     days: ["Day 3", "Day 4"],
-    labelOffset: [38, 4],
+    labelOffset: [12, 4],
   },
   {
     id: "tateyama-kurobe",

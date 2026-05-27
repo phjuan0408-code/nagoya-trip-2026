@@ -204,6 +204,7 @@ export default function PrefectureMap({
           const labelX = labelOffset?.[0] || 0;
           const labelY = labelOffset?.[1] ?? sizes.placeDefaultLabelY;
           const labelAnchor = labelX > 0 ? "start" : labelX < 0 ? "end" : "middle";
+          const labelBaseline = labelX === 0 && labelY > 0 ? "hanging" : "auto";
 
           return (
           <Marker key={place.id} coordinates={place.coordinates}>
@@ -223,6 +224,7 @@ export default function PrefectureMap({
                 x={labelX}
                 y={labelY}
                 textAnchor={labelAnchor}
+                dominantBaseline={labelBaseline}
                 className="select-none font-serif font-bold"
                 style={{ fontSize: sizes.placeFontSize }}
                 fill="#111"
