@@ -200,7 +200,7 @@ export default function PrefectureMap({
         ))}
 
         {visiblePlaces.map((place) => {
-          const labelOffset = placeLabelOffsets[place.id] || place.labelOffset;
+          const labelOffset = resolveResponsiveOffset(placeLabelOffsets[place.id] || place.labelOffset, sizes.breakpoint);
           const labelX = labelOffset?.[0] || 0;
           const labelY = labelOffset?.[1] ?? sizes.placeDefaultLabelY;
           const labelAnchor = labelX > 0 ? "start" : labelX < 0 ? "end" : "middle";
@@ -301,6 +301,7 @@ function getResponsiveMapConfig(mode, width) {
 }
 
 const desktopSizes = {
+  breakpoint: "desktop",
   regionFontSize: 19,
   regionTextStrokeWidth: 4,
   placeRadius: 6,
@@ -315,6 +316,7 @@ const desktopSizes = {
 };
 
 const tabletSizes = {
+  breakpoint: "tablet",
   regionFontSize: 24,
   regionTextStrokeWidth: 5,
   placeRadius: 8,
@@ -329,6 +331,7 @@ const tabletSizes = {
 };
 
 const mobileSizes = {
+  breakpoint: "mobile",
   regionFontSize: 32,
   regionTextStrokeWidth: 6,
   placeRadius: 10,
@@ -341,6 +344,11 @@ const mobileSizes = {
   endpointFontSize: 22,
   endpointTextStrokeWidth: 5,
 };
+
+function resolveResponsiveOffset(offset, breakpoint) {
+  if (!offset || Array.isArray(offset)) return offset;
+  return offset[breakpoint] || offset.default || offset.desktop || offset.tablet || offset.mobile;
+}
 
 function RouteEndpoint({ coordinates, color, name, labelOffset, sizes }) {
   const [x = 0, y = -14] = labelOffset || [];
