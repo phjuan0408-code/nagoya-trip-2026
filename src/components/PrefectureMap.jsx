@@ -280,7 +280,7 @@ function getResponsiveMapConfig(mode, width) {
   if (isPhone) {
     return {
       config: { scale: 3600, center: [137.8, 36.7] },
-      mapHeight: 780,
+      mapHeight: 980,
       sizes: mobileSizes,
     };
   }
