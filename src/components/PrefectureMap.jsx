@@ -279,7 +279,7 @@ function getResponsiveMapConfig(mode, width) {
 
   if (isPhone) {
     return {
-      config: { scale: 4800, center: [135.65, 34.65] },
+      config: { scale: 3600, center: [137.8, 36.7] },
       mapHeight: 780,
       sizes: mobileSizes,
     };
@@ -287,14 +287,14 @@ function getResponsiveMapConfig(mode, width) {
 
   if (isTablet) {
     return {
-      config: { scale: 2500, center: [136.85, 35.8] },
+      config: { scale: 2350, center: [136.9, 36.4] },
       mapHeight: 780,
       sizes: tabletSizes,
     };
   }
 
   return {
-    config: { scale: 1800, center: [137.4, 37.1] },
+    config: { scale: 1600, center: [137.4, 38.0] },
     mapHeight: 680,
     sizes: desktopSizes,
   };

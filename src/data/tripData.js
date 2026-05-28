@@ -54,7 +54,7 @@ export const places = [
     cover: "./images/nagoya-2026/places/centrair-airport.webp",
     days: ["Day 1", "Day 9"],
     labelOffset: {
-      default: [0, 20],
+      default: [0, 10],
       mobile: [0, 22],
     },
   },
@@ -75,7 +75,10 @@ export const places = [
     summary: "國寶犬山城與木曾川旁的城下町，作為名古屋近郊的一站很有自己的風景。",
     cover: "./images/nagoya-2026/day-7/inuyama/castle.webp",
     days: ["Day 7"],
-    labelOffset: [25, 4],
+    labelOffset: {
+      default: [10, 4],
+      mobile: [21, 4],
+    },
   },
   {
     id: "narai",
@@ -104,8 +107,8 @@ export const places = [
     cover: "./images/nagoya-2026/day-3/shinano-omachi/station-night.webp",
     days: ["Day 3", "Day 4"],
     labelOffset: {
-      default: [38, 4],
-      mobile: [12, 4],
+      default: [12, 4],
+      mobile: [21, 4],
     },
   },
   {
