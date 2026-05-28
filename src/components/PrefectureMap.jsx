@@ -31,7 +31,10 @@ export default function PrefectureMap({
     return () => resizeObserver.disconnect();
   }, []);
 
-  const { config, mapHeight, sizes } = getResponsiveMapConfig(mode, mapWidth);
+  const { config, mapHeight, sizes, cropBottom = 0 } = getResponsiveMapConfig(mode, mapWidth);
+  const croppedMapHeight = cropBottom ? mapHeight - cropBottom : 0;
+  const displayHeight =
+    croppedMapHeight && mapWidth ? (croppedMapHeight * mapWidth) / 980 : undefined;
 
   const regionByPrefecture = useMemo(() => {
     const map = new Map();
@@ -71,7 +74,11 @@ export default function PrefectureMap({
     : mapPlaces;
 
   return (
-    <div ref={mapRef} className="relative w-full overflow-hidden">
+    <div
+      ref={mapRef}
+      className="relative w-full overflow-hidden"
+      style={displayHeight ? { height: `${displayHeight}px` } : undefined}
+    >
       <ComposableMap
         projection="geoMercator"
         projectionConfig={config}
@@ -279,9 +286,10 @@ function getResponsiveMapConfig(mode, width) {
 
   if (isPhone) {
     return {
-      config: { scale: 3600, center: [137.8, 36.7] },
-      mapHeight: 980,
+      config: { scale: 3600, center: [137.8, 38.7] },
+      mapHeight: 1200,
       sizes: mobileSizes,
+      cropBottom: 80,
     };
   }
 
